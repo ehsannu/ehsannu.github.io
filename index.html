@@ -7,12 +7,13 @@
 
   <!-- Basic SEO -->
   <meta name="description" content="Official personal website of Dr. Ehsan Mohammadi, Associate Professor in the College of Information and Communications at the University of South Carolina." />
-  <link rel="canonical" href="https://www.ehsanmohammadi.com/" />
+  <!-- If this GitHub site is your entity hub, you may want the canonical to be this URL instead -->
+  <link rel="canonical" href="https://ehsannu.github.io/" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Dr. Ehsan Mohammadi – Official Personal Website" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.ehsanmohammadi.com/" />
+  <meta property="og:url" content="https://ehsannu.github.io/" />
   <meta property="og:description" content="Associate Professor, College of Information and Communications, School of Library and Information Science." />
   <meta property="og:image" content="https://lh3.googleusercontent.com/sitesv/AAzXCkcBodyF-XnZOHZN2InR3H6kJl9oTHSVMnqZqrv6uKSwBarLbYjHBIdKSPiw2NnzFLiPUwHVp-lavfZCJgfhI-N_hdvoKJ9Nfs5NW8cYMImpaVbQEfiWyPv-NPjDurUkQFs73Wku_JmFQWMdzAxtsYxo3rkyvb-TUZctLPYa2kfTcf561PoCq0p63hVjau8bAFy39g=w1280" />
 
@@ -23,11 +24,13 @@
   <style>
     :root {
       --primary: #226e93;
-      --primary-dark: #1e6c93;
+      --primary-dark: #1e4f6a;
       --text-main: #212121;
       --text-muted: #555555;
       --bg-main: #f2f2f2;
       --bg-header: #226e93;
+      --card-bg: #ffffff;
+      --border-subtle: #dddddd;
     }
 
     * {
@@ -39,7 +42,7 @@
     body {
       font-family: "Lato", Arial, sans-serif;
       color: var(--text-main);
-      background-color: white;
+      background-color: var(--bg-main);
       line-height: 1.6;
     }
 
@@ -91,7 +94,6 @@
     }
 
     main {
-      background: var(--bg-main);
       min-height: 100vh;
     }
 
@@ -125,3 +127,206 @@
       color: var(--text-muted);
       margin-bottom: 0.25rem;
     }
+
+    .hero-text p {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .hero-actions {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .btn-primary,
+    .btn-ghost {
+      display: inline-block;
+      padding: 0.55rem 1.1rem;
+      font-size: 0.95rem;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid transparent;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      border-color: var(--primary-dark);
+    }
+
+    .btn-ghost {
+      background: #ffffff;
+      color: var(--primary-dark);
+      border-color: var(--border-subtle);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--primary-dark);
+    }
+
+    .hero-media {
+      text-align: center;
+    }
+
+    .hero-media img {
+      max-width: 220px;
+      width: 100%;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .section {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .section-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    .section h2 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: var(--primary-dark);
+      margin-bottom: 1rem;
+    }
+
+    .section p {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .links-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .links-list li {
+      margin-bottom: 0.4rem;
+    }
+
+    .links-list a {
+      color: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    .links-list a:hover {
+      text-decoration: underline;
+    }
+
+    /* Google Scholar profile block */
+    #google-scholar-profile {
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      background: #fafafa;
+      margin-top: 1rem;
+    }
+
+    #google-scholar-profile h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    #google-scholar-profile p {
+      margin-bottom: 0.25rem;
+      font-size: 0.95rem;
+    }
+
+    /* Simple Google Scholar logo style */
+    .scholar-logo {
+      width: 20px;
+      height: 20px;
+      border-radius: 3px;
+      background: linear-gradient(135deg, #4285f4, #34a853);
+      display: inline-block;
+    }
+
+    footer {
+      background: #111111;
+      color: #cccccc;
+      margin-top: 2rem;
+    }
+
+    footer .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    footer a {
+      color: #dddddd;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: left;
+      }
+
+      .hero-media {
+        order: -1;
+      }
+
+      header {
+        position: static;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="site-title">
+        <a href="#top">Dr. Ehsan Mohammadi</a>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#scholar">Google Scholar</a></li>
+          <li><a href="#links">Links</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero / intro -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-text">
+        <small>Associate Professor</small>
+        <small>College of Information and Communications · University of South Carolina</small>
+        <h1 id="hero-heading">Ehsan Mohammadi, Ph.D.</h1>
+        <h2>Human-centered AI · Health informatics · Social media analytics · Science of science</h2>
+        <p>
+          This page serves as a structured, machine-readable hub that connects my professional
+          profiles, research identifiers, and lab websites.
+        </p>
+        <di

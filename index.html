@@ -1,759 +1,263 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Dr. Ehsan Mohammadi | Official Personal Website</title>
-  <meta name="description" content="Associate Professor in the College of Information and Communications at the University of South Carolina. Research in human centered AI, health misinformation, social media analytics, and the science of science." />
+  <title>Dr. Ehsan Mohammadi – Official Personal Website</title>
+  <meta name="description" content="Associate Professor of Information Science at the University of South Carolina. Research in health informatics, science of science, social media analytics, and applied AI." />
 
-  <!-- Basic SEO -->
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical -->
   <link rel="canonical" href="https://ehsannu.github.io/" />
 
-  <!-- Open Graph / Social -->
-  <meta property="og:title" content="Dr. Ehsan Mohammadi | Official Personal Website" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ehsannu.github.io/" />
-  <meta property="og:description" content="Associate Professor in the College of Information and Communications at the University of South Carolina." />
-  <meta property="og:image" content="https://lh3.googleusercontent.com/sitesv/AAzXCkcv8dkSOtFV1ODjeatiX1UnNnFryCpEfjdaoBTU7et7UB8WD9aekNa86gBCGsS-uijbhRBLx3gX6OahsNikjnjbOEqajryBgS82OQV7-bcHQS9-j1c-q3-rR3Fxj_BsjuTOG7ObIOM6IVuNf24pOWAn6j58KXiRloVIoRz9kTaWcsogafOrYw6icchiYH41m4X9vA=w1280" />
-
-  <!-- Schema.org -->
-  <meta itemprop="name" content="Dr. Ehsan Mohammadi | Official Personal Website" />
-  <meta itemprop="description" content="Associate Professor in the College of Information and Communications at the University of South Carolina." />
-  <meta itemprop="image" content="https://lh3.googleusercontent.com/sitesv/AAzXCkcv8dkSOtFV1ODjeatiX1UnNnFryCpEfjdaoBTU7et7UB8WD9aekNa86gBCGsS-uijbhRBLx3gX6OahsNikjnjbOEqajryBgS82OQV7-bcHQS9-j1c-q3-rR3Fxj_BsjuTOG7ObIOM6IVuNf24pOWAn6j58KXiRloVIoRz9kTaWcsogafOrYw6icchiYH41m4X9vA=w1280" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
+  <!-- Simple styling -->
   <style>
     :root {
-      --bg: #f5f5f4;
-      --bg-elevated: #ffffff;
-      --accent: #22c55e;
-      --accent-alt: #0ea5e9;
-      --accent-soft: #dcfce7;
-      --accent-border: #16a34a;
+      --bg: #f5f5f5;
+      --card-bg: #ffffff;
       --text: #111827;
       --muted: #4b5563;
-      --border-subtle: rgba(148, 163, 184, 0.4);
-      --radius-lg: 18px;
-      --radius-xl: 26px;
-      --shadow-soft: 0 16px 40px rgba(15, 23, 42, 0.08);
-      --shadow-nav: 0 4px 18px rgba(15, 23, 42, 0.08);
-      --max-width: 1120px;
-      --sidebar-width: 310px;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --radius: 16px;
+      --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+      --max-width: 960px;
     }
 
     * {
       box-sizing: border-box;
     }
 
-    html,
     body {
       margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: var(--bg);
       color: var(--text);
       -webkit-font-smoothing: antialiased;
     }
 
     a {
-      color: inherit;
+      color: var(--accent);
       text-decoration: none;
     }
-
-    img {
-      max-width: 100%;
-      display: block;
+    a:hover {
+      text-decoration: underline;
     }
 
-    .site-shell {
+    .shell {
       min-height: 100vh;
       display: flex;
       flex-direction: column;
     }
 
-    /* Sticky top nav */
-    .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 40;
+    header {
       background: #ffffff;
-      border-bottom: 1px solid var(--border-subtle);
-      box-shadow: var(--shadow-nav);
+      border-bottom: 1px solid var(--border);
     }
 
     .nav-inner {
       max-width: var(--max-width);
       margin: 0 auto;
-      padding: 0.8rem 1.5rem;
+      padding: 0.75rem 1.25rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 1rem;
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-    }
-
-    .brand-avatar {
-      width: 34px;
-      height: 34px;
-      border-radius: 999px;
-      overflow: hidden;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-    }
-
-    .brand-text {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .brand-name {
-      font-size: 0.95rem;
+    .site-title {
       font-weight: 600;
-      letter-spacing: 0.03em;
+      font-size: 1rem;
     }
 
-    .brand-role {
-      font-size: 0.75rem;
-      color: #6b7280;
-    }
-
-    .nav-links {
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
       gap: 0.75rem;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
     }
 
-    .nav-link {
-      padding: 0.4rem 0.7rem;
+    nav a {
+      padding: 0.2rem 0.6rem;
       border-radius: 999px;
-      color: #4b5563;
-      border: 1px solid transparent;
-      transition: all 0.18s ease-out;
+      color: var(--muted);
     }
 
-    .nav-link:hover {
-      color: var(--text);
-      border-color: rgba(148, 163, 184, 0.6);
-      background-color: #f9fafb;
-    }
-
-    .nav-link.is-active {
-      color: #047857;
-      border-color: var(--accent-border);
-      background: #ecfdf5;
-      font-weight: 500;
-    }
-
-    .nav-cta {
-      padding: 0.45rem 0.95rem;
-      border-radius: 999px;
-      border: none;
-      background: linear-gradient(to right, var(--accent), var(--accent-alt));
-      color: #f9fafb;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.45rem;
-      cursor: pointer;
-      box-shadow: 0 12px 28px rgba(22, 163, 74, 0.35);
-    }
-
-    .nav-cta span.icon {
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 900px) {
-      .nav-links {
-        display: none;
-      }
-    }
-
-    main {
-      flex: 1;
+    nav a:hover {
+      background: var(--accent-soft);
+      color: var(--accent);
+      text-decoration: none;
     }
 
     .page {
       max-width: var(--max-width);
       margin: 0 auto;
-      padding: 2.4rem 1.5rem 3rem;
+      padding: 1.8rem 1.25rem 2.5rem;
       display: grid;
-      grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
-      gap: 2.2rem;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+      gap: 1.75rem;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 800px) {
       .page {
         grid-template-columns: minmax(0, 1fr);
       }
     }
 
-    /* Sidebar */
-    .sidebar {
-      display: flex;
-      flex-direction: column;
-      gap: 1.4rem;
-      background: var(--bg-elevated);
-      border-radius: var(--radius-xl);
-      border: 1px solid var(--border-subtle);
-      padding: 1.4rem 1.35rem 1.6rem;
-      box-shadow: var(--shadow-soft);
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
     }
 
-    .sidebar-photo {
-      border-radius: 24px;
+    .profile-image {
+      border-radius: 18px;
       overflow: hidden;
-      border: 1px solid rgba(148, 163, 184, 0.5);
+      border: 1px solid var(--border);
+      margin-bottom: 1rem;
     }
 
-    .sidebar-name {
-      font-size: 1.15rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      margin-top: 0.6rem;
-    }
-
-    .sidebar-title {
-      font-size: 0.85rem;
-      color: var(--muted);
-      margin-top: 0.15rem;
-    }
-
-    .sidebar-section-title {
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #6b7280;
-      margin-top: 0.8rem;
-      margin-bottom: 0.3rem;
-    }
-
-    .sidebar-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: 0.82rem;
-    }
-
-    .sidebar-list li {
-      padding: 0.15rem 0;
-      color: var(--text);
-    }
-
-    .sidebar-list a {
-      position: relative;
-    }
-
-    .sidebar-list a::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -2px;
-      width: 0;
-      height: 1px;
-      background: linear-gradient(to right, var(--accent), var(--accent-alt));
-      transition: width 0.18s ease-out;
-    }
-
-    .sidebar-list a:hover::after {
+    .profile-image img {
+      display: block;
       width: 100%;
+      height: auto;
     }
 
-    .sidebar-badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-      margin-top: 0.3rem;
-    }
-
-    .badge {
-      font-size: 0.72rem;
-      padding: 0.18rem 0.55rem;
-      border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-      background: #f9fafb;
-      color: #374151;
-    }
-
-    .social-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-      margin-top: 0.4rem;
-      font-size: 0.8rem;
-    }
-
-    .social-pill {
-      padding: 0.25rem 0.6rem;
-      border-radius: 999px;
-      background: #f9fafb;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-      color: #374151;
-    }
-
-    /* Right column sections */
-    .content {
-      display: flex;
-      flex-direction: column;
-      gap: 1.6rem;
-    }
-
-    .hero-block {
-      background: var(--bg-elevated);
-      border-radius: var(--radius-xl);
-      border: 1px solid var(--border-subtle);
-      padding: 1.6rem 1.5rem 1.7rem;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .hero-kicker {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.22rem 0.6rem 0.22rem 0.25rem;
-      border-radius: 999px;
-      background: #e0f2f1;
-      border: 1px solid #8fd3c4;
-      font-size: 0.75rem;
-      color: #047857;
-      width: fit-content;
-    }
-
-    .hero-kicker-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: radial-gradient(circle, #22c55e, #15803d);
-      box-shadow: 0 0 10px rgba(34, 197, 94, 0.8);
-    }
-
-    .hero-title {
-      font-size: clamp(2.0rem, 2.5vw + 1rem, 2.6rem);
+    .name {
+      font-size: 1.4rem;
       font-weight: 600;
-      letter-spacing: 0.03em;
-      margin: 0.9rem 0 0.5rem;
-      color: var(--text);
+      margin: 0 0 0.4rem;
     }
 
-    .hero-subtitle {
-      font-size: 0.98rem;
+    .role {
+      font-size: 0.95rem;
       color: var(--muted);
-      max-width: 38rem;
+      margin: 0 0 0.6rem;
     }
 
-    .hero-highlight {
-      color: #047857;
-      font-weight: 500;
-    }
-
-    .hero-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-      margin-top: 0.8rem;
-    }
-
-    .hero-tag {
-      font-size: 0.75rem;
-      padding: 0.23rem 0.6rem;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      border: 1px solid #8fd3c4;
-      color: #065f46;
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.7rem;
-      margin-top: 1rem;
-    }
-
-    .btn-primary,
-    .btn-ghost {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.45rem;
-      padding: 0.7rem 1.0rem;
-      font-size: 0.85rem;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      cursor: pointer;
-    }
-
-    .btn-primary {
-      background: linear-gradient(to right, var(--accent), var(--accent-alt));
-      color: #f9fafb;
-      font-weight: 600;
-      box-shadow: 0 16px 40px rgba(22, 163, 74, 0.4);
-    }
-
-    .btn-ghost {
-      background: #f9fafb;
-      border-color: rgba(148, 163, 184, 0.8);
-      color: #4b5563;
-    }
-
-    .btn-ghost:hover {
-      border-color: #4b5563;
-      color: #111827;
-    }
-
-    .section-card {
-      background: var(--bg-elevated);
-      border-radius: var(--radius-lg);
-      border: 1px solid var(--border-subtle);
-      padding: 1.3rem 1.4rem 1.4rem;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .section-header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: 1rem;
+    .contact-line {
+      font-size: 0.9rem;
+      color: var(--muted);
       margin-bottom: 0.6rem;
     }
 
-    .section-title {
-      font-size: 0.95rem;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: #6b7280;
+    .google-scholar-link {
+      font-size: 0.9rem;
+      margin-top: 0.4rem;
     }
 
-    .section-body {
+    .main-text p {
+      margin: 0.45rem 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .journals {
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+    }
+
+    .journals a {
+      white-space: nowrap;
+    }
+
+    .news-card {
+      margin-top: 0.75rem;
+    }
+
+    .news-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 0 0 0.6rem;
+    }
+
+    .news-list {
+      margin: 0;
+      padding-left: 1.2rem;
       font-size: 0.9rem;
       color: var(--muted);
     }
 
-    .section-body p {
-      margin: 0.35rem 0;
-    }
-
-    .section-list {
-      list-style: none;
-      padding: 0;
-      margin: 0.4rem 0 0;
-      font-size: 0.9rem;
-    }
-
-    .section-list li {
-      margin-bottom: 0.3rem;
-    }
-
-    .section-list strong {
-      font-weight: 600;
-    }
-
-    /* Google Scholar card */
-    .scholar-card {
-      margin-top: 0.4rem;
-      border-radius: 16px;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-      padding: 0.9rem 1.0rem;
-      background: #f9fafb;
-      display: grid;
-      grid-template-columns: auto minmax(0, 1fr);
-      gap: 0.8rem;
-      align-items: center;
-    }
-
-    .scholar-logo {
-      width: 40px;
-      height: 40px;
-      border-radius: 12px;
-      background: linear-gradient(to bottom right, #4285f4, #0ea5e9);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 12px 30px rgba(37, 99, 235, 0.7);
-      color: #eff6ff;
-      font-size: 1.4rem;
-    }
-
-    .scholar-meta {
-      display: flex;
-      flex-direction: column;
-      gap: 0.18rem;
-      font-size: 0.86rem;
-      color: #111827;
-    }
-
-    .scholar-metrics {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-      font-size: 0.8rem;
-      color: #4b5563;
-    }
-
-    .scholar-pill {
-      padding: 0.16rem 0.5rem;
-      border-radius: 999px;
-      background: #ffffff;
-      border: 1px solid rgba(148, 163, 184, 0.7);
-    }
-
-    .scholar-source {
-      font-size: 0.75rem;
-      color: #6b7280;
-      margin-top: 0.2rem;
+    .news-list li {
+      margin-bottom: 0.45rem;
     }
 
     footer {
       max-width: var(--max-width);
       margin: 0 auto;
-      padding: 0 1.5rem 1.6rem;
-      font-size: 0.75rem;
-      color: #6b7280;
-    }
-
-    footer a {
-      text-decoration: underline;
-      text-decoration-style: dotted;
+      padding: 0 1.25rem 1.4rem;
+      font-size: 0.8rem;
+      color: var(--muted);
     }
   </style>
 </head>
 <body>
-  <div class="site-shell">
-    <header class="site-header">
+  <div class="shell">
+    <header>
       <div class="nav-inner">
-        <a href="#top" class="brand">
-          <div class="brand-avatar">
-            <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkcv8dkSOtFV1ODjeatiX1UnNnFryCpEfjdaoBTU7et7UB8WD9aekNa86gBCGsS-uijbhRBLx3gX6OahsNikjnjbOEqajryBgS82OQV7-bcHQS9-j1c-q3-rR3Fxj_BsjuTOG7ObIOM6IVuNf24pOWAn6j58KXiRloVIoRz9kTaWcsogafOrYw6icchiYH41m4X9vA=w600" alt="Portrait of Dr. Ehsan Mohammadi" />
-          </div>
-          <div class="brand-text">
-            <span class="brand-name">Dr. Ehsan Mohammadi</span>
-            <span class="brand-role">Associate Professor, University of South Carolina</span>
-          </div>
-        </a>
-        <nav class="nav-links" aria-label="Main navigation">
-          <a href="#about" class="nav-link is-active">About</a>
-          <a href="#research" class="nav-link">Research</a>
-          <a href="#teaching" class="nav-link">Teaching</a>
-          <a href="#publications" class="nav-link">Publications</a>
-          <a href="#contact" class="nav-link">Contact</a>
+        <div class="site-title">Dr. Ehsan Mohammadi – Official Personal Website</div>
+        <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="#top">Welcome</a></li>
+            <li><a href="https://www.ehsanmohammadi.com/about" target="_blank" rel="noopener">About Ehsan</a></li>
+            <li><a href="https://www.ehsanmohammadi.com/talks" target="_blank" rel="noopener">Talks</a></li>
+            <li><a href="https://www.ehsanmohammadi.com/teaching" target="_blank" rel="noopener">Teaching</a></li>
+            <li><a href="https://www.ehsanmohammadi.com/education" target="_blank" rel="noopener">Education</a></li>
+            <li><a href="https://www.ehsanmohammadi.com/research" target="_blank" rel="noopener">Research</a></li>
+          </ul>
         </nav>
-        <button
-          class="nav-cta"
-          type="button"
-          onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});"
-        >
-          <span class="icon">✉</span>
-          <span>Contact</span>
-        </button>
       </div>
     </header>
 
-    <main id="top">
-      <div class="page">
-        <!-- Sidebar column -->
-        <aside class="sidebar">
-          <div class="sidebar-photo">
-            <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkcv8dkSOtFV1ODjeatiX1UnNnFryCpEfjdaoBTU7et7UB8WD9aekNa86gBCGsS-uijbhRBLx3gX6OahsNikjnjbOEqajryBgS82OQV7-bcHQS9-j1c-q3-rR3Fxj_BsjuTOG7ObIOM6IVuNf24pOWAn6j58KXiRloVIoRz9kTaWcsogafOrYw6icchiYH41m4X9vA=w800" alt="Portrait of Dr. Ehsan Mohammadi" />
-          </div>
-          <div>
-            <div class="sidebar-name">Dr. Ehsan Mohammadi</div>
-            <div class="sidebar-title">Associate Professor of Information Science<br />
-              College of Information and Communications<br />
-              University of South Carolina</div>
-          </div>
-
-          <div>
-            <div class="sidebar-section-title">Research areas</div>
-            <ul class="sidebar-list">
-              <li>Human centered AI and data</li>
-              <li>Health misinformation and health communication</li>
-              <li>Social media analytics</li>
-              <li>Science of science and research evaluation</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="sidebar-section-title">Affiliations</div>
-            <ul class="sidebar-list">
-              <li>Director, Hi Da Lab (Human Insight for Data and AI)</li>
-              <li>PhD Program Director, School of Information Science</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="sidebar-section-title">Highlights</div>
-            <div class="sidebar-badges">
-              <span class="badge">Garfield Award for best PhD thesis</span>
-              <span class="badge">IMLS and NIH funded projects</span>
-              <span class="badge">Publications in JAMA Network Open, IPM, PLOS ONE</span>
-            </div>
-          </div>
-
-          <div>
-            <div class="sidebar-section-title">Online profiles</div>
-            <div class="social-links">
-              <a class="social-pill" href="https://scholar.google.com/citations?user=ddrRUEMAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <a class="social-pill" href="https://orcid.org/0000-0002-1527-9243" target="_blank" rel="noopener noreferrer">ORCID</a>
-              <a class="social-pill" href="https://www.semanticscholar.org/author/E.-Mohammadi/3181050" target="_blank" rel="noopener noreferrer">Semantic Scholar</a>
-              <a class="social-pill" href="https://hidalab.org" target="_blank" rel="noopener noreferrer">Hi Da Lab</a>
-              <a class="social-pill" href="https://twitter.com/ehsan_mohammadi" target="_blank" rel="noopener noreferrer">Twitter</a>
-            </div>
-          </div>
-        </aside>
-
-        <!-- Main column -->
-        <div class="content">
-          <section class="hero-block" id="about">
-            <div class="hero-kicker">
-              <span class="hero-kicker-dot"></span>
-              <span>Human insight for data and AI</span>
-            </div>
-            <h1 class="hero-title">Associate Professor of Information Science focusing on human centered AI, health, and scholarly communication.</h1>
-            <p class="hero-subtitle">
-              Research and teaching connect <span class="hero-highlight">human behavior and decision making</span> with
-              <span class="hero-highlight">data intensive and AI driven systems</span>, with particular attention to
-              health information, social media, and the ways research impact is measured and understood.
-            </p>
-            <div class="hero-tags">
-              <span class="hero-tag">Human centered AI</span>
-              <span class="hero-tag">Health misinformation</span>
-              <span class="hero-tag">Social media analytics</span>
-              <span class="hero-tag">Science of science</span>
-              <span class="hero-tag">AI literacy</span>
-            </div>
-            <div class="hero-actions">
-              <a href="#research" class="btn-primary">Explore current projects</a>
-              <a href="#publications" class="btn-ghost">View selected publications</a>
-            </div>
-          </section>
-
-          <section class="section-card" aria-labelledby="scholar-heading">
-            <div class="section-header">
-              <h2 class="section-title" id="scholar-heading">Google Scholar profile</h2>
-            </div>
-            <div class="section-body">
-              <div class="scholar-card">
-                <div class="scholar-logo" aria-hidden="true">G</div>
-                <div class="scholar-meta">
-                  <strong>Dr. Ehsan Mohammadi</strong>
-                  <span>University of South Carolina</span>
-                  <div class="scholar-metrics">
-                    <span class="scholar-pill">Citations: 3,456</span>
-                    <span class="scholar-pill">h index: 29</span>
-                    <span class="scholar-pill">i10 index: 52</span>
-                  </div>
-                  <div class="scholar-source">
-                    Source:
-                    <a href="https://scholar.google.com/citations?hl=en&amp;user=ddrRUEMAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener noreferrer">
-                      Google Scholar profile
-                    </a>
-                    (last updated December 2025)
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section-card" id="research">
-            <div class="section-header">
-              <h2 class="section-title">Research</h2>
-            </div>
-            <div class="section-body">
-              <p>
-                The research program examines how individuals and communities seek, interpret, and act on information in
-                complex digital environments. Recent projects include AI literacy in schools, cross platform analyses of
-                health misinformation, and studies of how metrics influence scholarly communication.
-              </p>
-              <ul class="section-list">
-                <li><strong>Human centered AI and literacy.</strong> Co design of AI literacy curricula with school librarians and educators.</li>
-                <li><strong>Health misinformation.</strong> Mixed methods analyses of COVID 19 and HIV content across YouTube, TikTok, and other platforms.</li>
-                <li><strong>Science of science.</strong> Bibliometrics and altmetrics to understand research impact, equity, and collaboration networks.</li>
-              </ul>
-            </div>
-          </section>
-
-          <section class="section-card" id="teaching">
-            <div class="section-header">
-              <h2 class="section-title">Teaching</h2>
-            </div>
-            <div class="section-body">
-              <p>
-                Teaching portfolio covers information science, data visualization, research methods, and AI literacy.
-                Courses are designed to connect theory and practice and to prepare students for data informed and AI
-                enabled workplaces.
-              </p>
-              <ul class="section-list">
-                <li>Information visualization and storytelling with data.</li>
-                <li>Human centered AI and information systems.</li>
-                <li>Research methods in information science.</li>
-              </ul>
-            </div>
-          </section>
-
-          <section class="section-card" id="publications">
-            <div class="section-header">
-              <h2 class="section-title">Selected publications</h2>
-            </div>
-            <div class="section-body">
-              <p>
-                Publications appear in venues such as JAMA Network Open, Information Processing and Management, PLOS
-                ONE, and Scientometrics. A full list is available on Google Scholar.
-              </p>
-              <ul class="section-list">
-                <li>Studies of how health information and misinformation spread on social media platforms.</li>
-                <li>Analyses of the opportunities and risks of generative AI for teaching and research.</li>
-                <li>Work on alternative metrics, research evaluation, and the responsible use of indicators.</li>
-              </ul>
-            </div>
-          </section>
-
-          <section class="section-card" id="contact">
-            <div class="section-header">
-              <h2 class="section-title">Contact</h2>
-            </div>
-            <div class="section-body">
-              <p>
-                School of Information Science<br />
-                College of Information and Communications<br />
-                University of South Carolina
-              </p>
-              <p>
-                Email: <a href="mailto:ehsan@email.sc.edu">ehsan@email.sc.edu</a>
-              </p>
-              <p>
-                For prospective students and collaborators, email is the best first step. Briefly describe your
-                background and your interests in human centered AI, health misinformation, social media analytics, or
-                the science of science.
-              </p>
-            </div>
-          </section>
+    <main id="top" class="page">
+      <!-- Left column: portrait + short profile -->
+      <section class="card">
+        <div class="profile-image">
+          <!-- You can change this image URL if you prefer -->
+          <img
+            src="https://www.ehsanmohammadi.com/welcome_files/portrait.jpg"
+            alt="Portrait of Dr. Ehsan Mohammadi, Associate Professor at the University of South Carolina" />
         </div>
-      </div>
-    </main>
+        <h1 class="name">Dr. Ehsan Mohammadi</h1>
+        <p class="role">
+          Associate Professor of Information Science<br />
+          College of Information and Communications<br />
+          University of South Carolina
+        </p>
+        <p class="contact-line">
+          Email:
+          <a href="mailto:Ehsan2@sc.edu">Ehsan2@sc.edu</a>
+        </p>
+        <p class="google-scholar-link">
+          <a href="https://scholar.google.com/citations?user=ddrRUEMAAAAJ" target="_blank" rel="noopener">
+            Google Scholar profile
+          </a>
+        </p>
+      </section>
 
-    <footer>
-      <p>
-        © <span id="year"></span> Ehsan Mohammadi. This site is maintained as a concise overview of current roles, research, and teaching.
-      </p>
-    </footer>
-  </div>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+      <!-- Right column: welcome text + news -->
+      <section class="card">
+        <div class="main-text">
+          <!-- These paragraphs are paraphrased from your Welcome page.
+               If you want them identical, you can paste your own text here. -->
+          <p>
+            I am an Associate Professor in the School of Information Science at the University of South Carolina.
+            I am also affiliated with the AI-Peer Project at the University of Sheffield and the USC Big Data
+            Health Science Center.
+          </p>
+          <p>
+            I direct the Hi Da Research Lab (Human Insight for Data and AI), where I collaborate with undergraduate
+            and graduate students, as well as international colleagues from different disciplines. If you are
+            interested in working together as a co-author, visiting scholar, or Ph.D. student, feel free to email me.
+          </p>
+          <p>
+            I currently serve as Chair of the iSchool’s Ph.D. program at the

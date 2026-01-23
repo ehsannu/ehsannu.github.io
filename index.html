@@ -111,7 +111,7 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      padding: 18px 0 14px 0;
+      padding: 20px 0 14px 0;
       border-bottom: 1px solid var(--border);
       background: rgba(255, 255, 255, 0.88);
       backdrop-filter: blur(12px);
@@ -120,7 +120,7 @@
     .header-grid {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       gap: 12px;
     }
 
@@ -128,18 +128,18 @@
       display: flex;
       flex-direction: column;
       gap: 6px;
-      align-items: center;
-      text-align: center;
+      align-items: flex-start;
+      text-align: left;
       min-width: 0;
     }
 
     .brand-link {
       font-family: var(--serif);
-      font-weight: 750;
-      letter-spacing: -0.02em;
+      font-weight: 820;
+      letter-spacing: -0.035em;
       text-transform: none;
-      font-size: clamp(20px, 2.2vw, 28px);
-      line-height: 1.12;
+      font-size: clamp(26px, 3.2vw, 40px);
+      line-height: 1.05;
       display: inline-block;
       position: relative;
       padding-bottom: 10px;
@@ -150,19 +150,19 @@
     .brand-link::after {
       content: "";
       position: absolute;
-      left: 50%;
+      left: 0;
       bottom: 0;
-      width: 40px;
-      height: 2px;
-      border-radius: 2px;
-      background: var(--accent);
-      opacity: 0.9;
-      transform: translateX(-50%);
-      transition: width 160ms ease;
+      width: 62px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--accent), rgba(31, 79, 214, 0.25));
+      opacity: 0.95;
+      transform: none;
+      transition: width 180ms ease;
     }
 
     .brand-link:hover { text-decoration: none; }
-    .brand-link:hover::after { width: 60px; }
+    .brand-link:hover::after { width: 92px; }
 
     .brand small {
       font-family: var(--sans);
@@ -170,7 +170,9 @@
       color: var(--muted);
     }
 
+    /* Navigation: centered pill (previous format) */
     nav.primary {
+      align-self: center;
       justify-self: center;
       display: inline-flex;
       align-items: center;
@@ -224,7 +226,7 @@
       }
     }
 
-/* Main layout */
+    /* Main layout */
     main { padding: 34px 0 36px 0; }
 
     .hero {
@@ -268,8 +270,6 @@
     .lead a:hover {
       text-decoration-thickness: 2px;
     }
-
-    .lead strong { color: var(--text); font-weight: 700; }
 
     .links {
       margin-top: 14px;
@@ -326,7 +326,7 @@
       display: block;
     }
 
-    /* Bottom nav mirrors the top, like the reference site */
+    /* Bottom nav mirrors the top */
     footer {
       margin-top: 40px;
       padding: 18px 0 28px 0;
@@ -354,7 +354,7 @@
       padding: 0 10px;
     }
 
-    /* Subtle, modern selection */
+    /* Subtle selection */
     ::selection { background: rgba(31, 79, 214, 0.16); }
   </style>
 </head>
@@ -367,15 +367,16 @@
       <div class="header-grid" aria-label="Header">
         <div class="brand" aria-label="Site identity">
           <a class="brand-link" href="/" aria-current="page">Dr. Ehsan Mohammadi</a>
-          <small>Associate Professor, University of South Carolina</small>
         </div>
 
         <nav class="primary" aria-label="Primary">
           <a href="/" aria-current="page">Home</a>
+          <a href="/bio.html">Bio</a>
           <a href="/research.html">Research</a>
           <a href="/teaching.html">Teaching</a>
           <a href="/media.html">Media coverage</a>
-        </nav></div>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -383,7 +384,7 @@
     <div class="container">
       <section class="hero" aria-label="Intro">
         <div>
-<div class="lead">
+          <div class="lead">
             <p>
               I am an Associate Professor in the <a href="https://sc.edu/study/colleges_schools/cic/library_and_information_science/" rel="noopener">School of Information Science</a> at the <a href="https://sc.edu/" rel="noopener">University of South Carolina</a>. I am also a member of the <a href="https://www.ukri.org/wp-content/uploads/2025/09/ESRC-180925-Data-for-Metascience-successful-research-projects.pdf" rel="noopener">AI-Peer Project</a> at the <a href="https://www.sheffield.ac.uk/" rel="noopener">University of Sheffield</a> and an affiliated faculty member of the <a href="https://bigdata.sc.edu/" rel="noopener">USC Big Data Health Science Center</a>.
             </p>
@@ -412,7 +413,6 @@
             <a href="#" rel="noopener">Google Scholar</a>
             <a href="#" rel="noopener">ORCID</a>
           </div>
-
         </div>
 
         <aside aria-label="Portrait">
@@ -424,15 +424,19 @@
 
       <footer>
         <nav class="footer-nav" aria-label="Footer">
-          <a href="/">Home</a>          <a href="/research.html">Research</a>
+          <a href="/">Home</a>
+          <a href="/bio.html">Bio</a>
+          <a href="/research.html">Research</a>
           <a href="/teaching.html">Teaching</a>
-          <a href="/media.html">Media coverage</a>        </nav>
+          <a href="/media.html">Media coverage</a>
+        </nav>
         <div class="footnote">© <span id="year"></span> Dr. Ehsan Mohammadi</div>
       </footer>
     </div>
   </main>
 
   <script>
+    // Footer year
     (function () {
       var y = document.getElementById("year");
       if (y) y.textContent = new Date().getFullYear();

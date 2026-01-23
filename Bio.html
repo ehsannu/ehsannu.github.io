@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Bio | Dr. Ehsan Mohammadi</title>
+  <meta name="description" content="Bio of Dr. Ehsan Mohammadi." />
+  <link rel="canonical" href="https://www.ehsanmohammadi.com/bio.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bio | Dr. Ehsan Mohammadi" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ehsanmohammadi.com/bio.html" />
+  <meta property="og:description" content="Bio of Dr. Ehsan Mohammadi." />
+  <meta property="og:image" content="/assets/og.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bio | Dr. Ehsan Mohammadi" />
+  <meta name="twitter:description" content="Bio of Dr. Ehsan Mohammadi." />
+
+  <link rel="icon" href="/assets/favicon.png" />
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Schema.org (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.ehsanmohammadi.com/#website",
+        "url": "https://www.ehsanmohammadi.com/",
+        "name": "Dr. Ehsan Mohammadi",
+        "publisher": { "@id": "https://www.ehsanmohammadi.com/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.ehsanmohammadi.com/#person",
+        "name": "Ehsan Mohammadi",
+        "honorificPrefix": "Dr.",
+        "jobTitle": "Associate Professor",
+        "url": "https://www.ehsanmohammadi.com/",
+        "affiliation": [
+          { "@type": "Organization", "name": "University of South Carolina" },
+          { "@type": "Organization", "name": "College of Information and Communications" },
+          { "@type": "Organization", "name": "School of Information Science" }
+        ],
+        "image": "https://ehsannu.github.io/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --maxw: 980px;
+      --text: #111318;
+      --muted: rgba(17, 19, 24, 0.72);
+      --muted2: rgba(17, 19, 24, 0.58);
+      --border: rgba(17, 19, 24, 0.16);
+      --bg: #ffffff;
+      --accent: #1f4fd6;
+      --focus: 0 0 0 4px rgba(31, 79, 214, 0.18);
+      --sans: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      --serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--serif);
+      line-height: 1.7;
+      text-rendering: optimizeLegibility;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    a:focus-visible { outline: none; box-shadow: var(--focus); border-radius: 8px; }
+
+    .skip {
+      position: absolute;
+      left: -999px;
+      top: 0;
+      padding: 10px 12px;
+      background: #000;
+      color: #fff;
+      border-radius: 10px;
+      z-index: 9999;
+      font-family: var(--sans);
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .skip:focus { left: 12px; top: 12px; }
+
+    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 18px; }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 20px 0 14px 0;
+      border-bottom: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(12px);
+    }
+
+    .header-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: flex-start;
+      text-align: left;
+      min-width: 0;
+    }
+
+    .brand-link {
+      font-family: var(--serif);
+      font-weight: 820;
+      letter-spacing: -0.035em;
+      font-size: clamp(26px, 3.2vw, 40px);
+      line-height: 1.05;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 10px;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+    }
+
+    .brand-link::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 62px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--accent), rgba(31, 79, 214, 0.25));
+      opacity: 0.95;
+      transition: width 180ms ease;
+    }
+
+    .brand-link:hover { text-decoration: none; }
+    .brand-link:hover::after { width: 92px; }
+
+    /* Navigation: centered pill */
+    nav.primary {
+      align-self: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 6px;
+      border-radius: 999px;
+      border: 1px solid rgba(17, 19, 24, 0.14);
+      background: rgba(255, 255, 255, 0.70);
+      box-shadow: 0 10px 30px rgba(17, 19, 24, 0.08);
+      font-family: var(--sans);
+    }
+
+    nav.primary a {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      padding: 9px 12px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      transition: background 140ms ease, color 140ms ease, transform 140ms ease, border-color 140ms ease;
+      white-space: nowrap;
+    }
+
+    nav.primary a:hover {
+      text-decoration: none;
+      color: var(--text);
+      background: rgba(17, 19, 24, 0.05);
+      border-color: rgba(17, 19, 24, 0.10);
+      transform: translateY(-1px);
+    }
+
+    nav.primary a:active { transform: translateY(0px); }
+
+    nav.primary a[aria-current="page"] {
+      color: var(--text);
+      background: rgba(31, 79, 214, 0.10);
+      border-color: rgba(31, 79, 214, 0.22);
+      box-shadow: inset 0 0 0 1px rgba(31, 79, 214, 0.10);
+      text-decoration: none;
+    }
+
+    @media (max-width: 760px) {
+      .header-grid { gap: 10px; }
+
+      nav.primary {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 18px;
+      }
+    }
+
+    main { padding: 34px 0 36px 0; }
+
+    h1 {
+      margin: 0 0 10px 0;
+      font-family: var(--serif);
+      font-size: 30px;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      font-family: var(--serif);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 18px 0 28px 0;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 12.5px;
+    }
+
+    .footnote {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    ::selection { background: rgba(31, 79, 214, 0.16); }
+  </style>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header role="banner">
+    <div class="container">
+      <div class="header-grid" aria-label="Header">
+        <div class="brand" aria-label="Site identity">
+          <a class="brand-link" href="/">Dr. Ehsan Mohammadi</a>
+        </div>
+
+        <nav class="primary" aria-label="Primary">
+          <a href="/">Home</a>
+          <a href="/bio.html" aria-current="page">Bio</a>
+          <a href="/research.html">Research&amp;Publications</a>
+          <a href="/teaching.html">Teaching&amp;Mentoship</a>
+          <a href="/media.html">Media coverage</a>
+          <a href="/#news">News</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <section aria-label="Bio">
+        <h1>Bio</h1>
+        <p class="lead">Content coming soon.</p>
+      </section>
+
+      <footer>
+        <div class="footnote">© <span id="year"></span> Dr. Ehsan Mohammadi</div>
+      </footer>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var y = document.getElementById("year");
+      if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>

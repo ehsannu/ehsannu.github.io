@@ -1,301 +1,260 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  <title>Bio | Dr. Ehsan Mohammadi</title>
-  <meta name="description" content="Bio of Dr. Ehsan Mohammadi." />
-  <link rel="canonical" href="https://www.ehsanmohammadi.com/bio.html" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Bio | Dr. Ehsan Mohammadi" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.ehsanmohammadi.com/bio.html" />
-  <meta property="og:description" content="Bio of Dr. Ehsan Mohammadi." />
-  <meta property="og:image" content="/assets/og.jpg" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Bio | Dr. Ehsan Mohammadi" />
-  <meta name="twitter:description" content="Bio of Dr. Ehsan Mohammadi." />
-
-  <link rel="icon" href="/assets/favicon.png" />
-
-  <!-- Typography -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
-    rel="stylesheet"
-  />
-
-  <!-- Schema.org (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://www.ehsanmohammadi.com/#website",
-        "url": "https://www.ehsanmohammadi.com/",
-        "name": "Dr. Ehsan Mohammadi",
-        "publisher": { "@id": "https://www.ehsanmohammadi.com/#person" }
-      },
-      {
-        "@type": "Person",
-        "@id": "https://www.ehsanmohammadi.com/#person",
-        "name": "Ehsan Mohammadi",
-        "honorificPrefix": "Dr.",
-        "jobTitle": "Associate Professor",
-        "url": "https://www.ehsanmohammadi.com/",
-        "affiliation": [
-          { "@type": "Organization", "name": "University of South Carolina" },
-          { "@type": "Organization", "name": "College of Information and Communications" },
-          { "@type": "Organization", "name": "School of Information Science" }
-        ],
-        "image": "https://ehsannu.github.io/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg"
-      }
-    ]
-  }
-  </script>
-
+  <title>Ehsan Mohammadi | Bio</title>
   <style>
-    :root {
-      --maxw: 980px;
-      --text: #111318;
-      --muted: rgba(17, 19, 24, 0.72);
-      --muted2: rgba(17, 19, 24, 0.58);
-      --border: rgba(17, 19, 24, 0.16);
-      --bg: #ffffff;
-      --accent: #1f4fd6;
-      --focus: 0 0 0 4px rgba(31, 79, 214, 0.18);
-      --sans: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      --serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-      --radius: 14px;
+    :root{
+      --bg:#f8fafc;
+      --text:#0f172a;
+      --muted:#475569;
+      --line:#e2e8f0;
+      --card:#ffffff;
+      --accent:#0f766e;
+      --shadow: 0 12px 34px rgba(15,23,42,0.10);
+      --radius: 18px;
+      --max: 980px;
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
     }
 
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: var(--serif);
-      line-height: 1.7;
-      text-rendering: optimizeLegibility;
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:var(--font);
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 10% -10%, rgba(15,118,110,0.10), transparent 60%),
+        radial-gradient(900px 600px at 90% 0%, rgba(2,132,199,0.08), transparent 55%),
+        var(--bg);
     }
 
-    a { color: inherit; text-decoration: none; }
-    a:hover { text-decoration: underline; text-underline-offset: 3px; }
-    a:focus-visible { outline: none; box-shadow: var(--focus); border-radius: 8px; }
-
-    .skip {
-      position: absolute;
-      left: -999px;
-      top: 0;
-      padding: 10px 12px;
-      background: #000;
-      color: #fff;
-      border-radius: 10px;
-      z-index: 9999;
-      font-family: var(--sans);
-      font-weight: 600;
-      font-size: 13px;
+    /* Top bar */
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:50;
+      background:rgba(248,250,252,0.88);
+      backdrop-filter:saturate(180%) blur(10px);
+      border-bottom:1px solid rgba(226,232,240,0.85);
     }
-    .skip:focus { left: 12px; top: 12px; }
-
-    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 18px; }
-
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      padding: 20px 0 14px 0;
-      border-bottom: 1px solid var(--border);
-      background: rgba(255, 255, 255, 0.88);
-      backdrop-filter: blur(12px);
+    .topbar-inner{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:14px 18px;
+      display:flex;
+      align-items:center;
+      gap:12px;
     }
-
-    .header-grid {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 12px;
+    .brand-mark{
+      width:34px;
+      height:34px;
+      border-radius:12px;
+      background:
+        radial-gradient(circle at 30% 30%, rgba(15,118,110,0.25), rgba(15,118,110,0.04)),
+        linear-gradient(135deg, rgba(15,118,110,0.95), rgba(15,118,110,0.55));
+      box-shadow: 0 10px 22px rgba(15,118,110,0.18);
+      flex:0 0 auto;
     }
+    .brand-title{display:flex; flex-direction:column; line-height:1.15;}
+    .brand-title strong{font-size:0.98rem; letter-spacing:0.2px;}
+    .brand-title span{font-size:0.85rem; color:var(--muted);}
 
-    .brand {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      align-items: flex-start;
-      text-align: left;
-      min-width: 0;
+    /* Page */
+    .wrap{max-width:var(--max); margin:0 auto; padding:26px 18px 72px;}
+
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
     }
 
-    .brand-link {
-      font-family: var(--serif);
-      font-weight: 820;
-      letter-spacing: -0.035em;
-      font-size: clamp(26px, 3.2vw, 40px);
-      line-height: 1.05;
-      display: inline-block;
-      position: relative;
-      padding-bottom: 10px;
-      max-width: 100%;
-      overflow-wrap: anywhere;
+    .header{
+      padding:22px 22px 14px;
+      border-bottom:1px solid var(--line);
+    }
+    h1{
+      margin:0;
+      font-size:2.05rem;
+      letter-spacing:-0.3px;
+      line-height:1.15;
+    }
+    .lead{
+      margin:10px 0 0;
+      color:var(--muted);
+      line-height:1.65;
+      max-width:75ch;
+      font-size:1.02rem;
     }
 
-    .brand-link::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 62px;
-      height: 3px;
-      border-radius: 999px;
-      background: linear-gradient(90deg, var(--accent), rgba(31, 79, 214, 0.25));
-      opacity: 0.95;
-      transition: width 180ms ease;
+    .content{padding:22px;}
+
+    /* Continuous narrative flow (no boxes) */
+    .bio{
+      max-width:78ch;
+      margin:0 auto;
+      display:flex;
+      flex-direction:column;
+      gap:16px;
+    }
+    .bio p{
+      margin:0;
+      line-height:1.9;
+      font-size:1.05rem;
+      color:var(--text);
     }
 
-    .brand-link:hover { text-decoration: none; }
-    .brand-link:hover::after { width: 92px; }
-
-    /* Navigation: centered pill */
-    nav.primary {
-      align-self: center;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      padding: 6px;
-      border-radius: 999px;
-      border: 1px solid rgba(17, 19, 24, 0.14);
-      background: rgba(255, 255, 255, 0.70);
-      box-shadow: 0 10px 30px rgba(17, 19, 24, 0.08);
-      font-family: var(--sans);
+    .sep{
+      border:0;
+      height:1px;
+      background:linear-gradient(90deg, transparent, var(--line), transparent);
+      margin:6px 0;
     }
 
-    nav.primary a {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--muted);
-      padding: 9px 12px;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      transition: background 140ms ease, color 140ms ease, transform 140ms ease, border-color 140ms ease;
-      white-space: nowrap;
+    figure{margin:0;}
+    .photo{
+      width:100%;
+      border-radius:18px;
+      border:1px solid var(--line);
+      background:#e2e8f0;
+      overflow:hidden;
+      box-shadow: 0 10px 26px rgba(15,23,42,0.06);
+    }
+    .photo img{
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:cover;
     }
 
-    nav.primary a:hover {
-      text-decoration: none;
-      color: var(--text);
-      background: rgba(17, 19, 24, 0.05);
-      border-color: rgba(17, 19, 24, 0.10);
-      transform: translateY(-1px);
+    /* Photo sizing helpers */
+    .photo--hero{aspect-ratio: 16 / 7;}
+    .photo--wide{aspect-ratio: 16 / 8;}
+    .photo--std{aspect-ratio: 16 / 9;}
+    .photo--pair{aspect-ratio: 4 / 3;}
+
+    /* Text + photo alignment without boxed sections */
+    .pair{
+      display:grid;
+      gap:16px;
+      align-items:center;
+    }
+    .pair-text{display:flex; flex-direction:column; gap:12px;}
+
+    @media (min-width: 920px){
+      .pair{grid-template-columns: 1.15fr 0.85fr;}
+      .pair.reverse{grid-template-columns: 0.85fr 1.15fr;}
+      .pair.reverse .pair-text{order:2;}
+      .pair.reverse .pair-figure{order:1;}
     }
 
-    nav.primary a:active { transform: translateY(0px); }
-
-    nav.primary a[aria-current="page"] {
-      color: var(--text);
-      background: rgba(31, 79, 214, 0.10);
-      border-color: rgba(31, 79, 214, 0.22);
-      box-shadow: inset 0 0 0 1px rgba(31, 79, 214, 0.10);
-      text-decoration: none;
+    .note{
+      margin-top:16px;
+      color:var(--muted);
+      font-size:0.92rem;
+      line-height:1.6;
+      max-width:78ch;
+      margin-left:auto;
+      margin-right:auto;
     }
 
-    @media (max-width: 760px) {
-      .header-grid { gap: 10px; }
-
-      nav.primary {
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        border-radius: 18px;
-      }
+    @media (max-width: 640px){
+      .header{padding:18px 18px 12px;}
+      .content{padding:16px;}
+      h1{font-size:1.8rem;}
+      .bio p{font-size:1.02rem;}
     }
-
-    main { padding: 34px 0 36px 0; }
-
-    h1 {
-      margin: 0 0 10px 0;
-      font-family: var(--serif);
-      font-size: 30px;
-      letter-spacing: -0.01em;
-      line-height: 1.25;
-    }
-
-    .lead {
-      margin: 0;
-      color: var(--muted);
-      font-size: 16px;
-      font-family: var(--serif);
-    }
-
-    footer {
-      margin-top: 40px;
-      padding: 18px 0 28px 0;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-family: var(--sans);
-      font-size: 12.5px;
-    }
-
-    .footnote {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      padding: 0 10px;
-    }
-
-    ::selection { background: rgba(31, 79, 214, 0.16); }
   </style>
 </head>
-
 <body>
-  <a class="skip" href="#main">Skip to main content</a>
-
-  <header role="banner">
-    <div class="container">
-      <div class="header-grid" aria-label="Header">
-        <div class="brand" aria-label="Site identity">
-          <a class="brand-link" href="/">Dr. Ehsan Mohammadi</a>
-        </div>
-
-        <nav class="primary" aria-label="Primary">
-          <a href="/">Home</a>
-          <a href="/bio.html" aria-current="page">Bio</a>
-          <a href="/research.html">Research&amp;Publications</a>
-          <a href="/teaching.html">Teaching&amp;Mentoship</a>
-          <a href="/media.html">Media coverage</a>
-          <a href="/#news">News</a>
-        </nav>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand-mark" aria-hidden="true"></div>
+      <div class="brand-title">
+        <strong>Ehsan Mohammadi, Ph.D</strong>
+        <span>Academic bio</span>
       </div>
     </div>
   </header>
 
-  <main id="main">
-    <div class="container">
-      <section aria-label="Bio">
-        <h1>Bio</h1>
-        <p class="lead">Content coming soon.</p>
-      </section>
+  <main class="wrap">
+    <section class="card" aria-label="Narrative bio">
+<div class="content">
+        <article class="bio">
+          <!-- USC: photo after the paragraph -->
+          <p>
+            I have been an Associate Professor in the School of Information Science at the University of South Carolina since 2023, after joining the University in 2017 as an Assistant Professor. My research investigates how information is created, used, and shared in digital environments. I apply computational and data science methods to address real-world problems in social contexts. I have published in areas including artificial intelligence, health informatics, misinformation, social media analytics, and the science of science. I also design and teach foundational and emerging courses at the undergraduate, graduate, and PhD levels in both face-to-face and fully online formats.
+          </p>
 
-      <footer>
-        <div class="footnote">© <span id="year"></span> Dr. Ehsan Mohammadi</div>
-      </footer>
-    </div>
+          <figure class="photo photo--wide">
+            <img src="assets/usc-campus.jpg" alt="" loading="lazy" />
+          </figure>
+
+          <hr class="sep" />
+
+          <!-- Northwestern + UK -->
+          <div class="pair">
+            <div class="pair-text">
+              <p>
+                Before joining USC, I was a postdoctoral researcher at Northwestern University Feinberg School of Medicine, Department of Preventive Medicine, Health and Biomedical Informatics, where I worked with Dr. Kristi Holmes.
+              </p>
+              <p>
+                Earlier in the United Kingdom, I was part of a research team at the University of Wolverhampton’s Science Park that evaluated the Knowledge Exchange and Enterprise Network (KEEN) program, strengthening my interest in how knowledge moves across institutions and communities.
+              </p>
+            </div>
+            <figure class="photo photo--pair pair-figure">
+              <img src="assets/northwestern.jpg" alt="Northwestern University Feinberg School of Medicine" loading="lazy" />
+            </figure>
+          </div>
+
+          <hr class="sep" />
+
+          <!-- PhD -->
+          <div class="pair reverse">
+            <div class="pair-text">
+              <p>
+                I earned my PhD in Information Science at the University of Wolverhampton under the supervision of Professor Mike Thelwall in the Statistical Cybermetrics Research Group. I began my PhD with a simple question: how can we measure the impact of science beyond citations? In my dissertation, I focused on this issue by large-scale data analysis from social networking sites to identify and test new metrics that reflect broader research impact outside academia across multiple disciplines, including the social sciences, medicine, and engineering.
+              </p>
+            </div>
+            <figure class="photo photo--pair pair-figure">
+              <img src="assets/phd.jpg" alt="PhD research photo" loading="lazy" />
+            </figure>
+          </div>
+
+          <hr class="sep" />
+
+          <!-- Masters + training -->
+          <div class="pair">
+            <div class="pair-text">
+              <p>
+                I also hold a master's in Information Studies, and my thesis applied text mining, topic modeling, and visualizations of academic papers in nanoscience and technology publications. I completed my BA in Information Science at the University of Isfahan. I have also participated in specialized training programs, including the Summer Doctoral Programme at the Oxford Internet Institute, University of Oxford, and a summer school on science, technology, and innovation indicators and knowledge dynamics visualization hosted by the European Network of Indicator Designers at the Royal Netherlands Academy of Arts and Sciences in Amsterdam.
+              </p>
+            </div>
+            <figure class="photo photo--pair pair-figure">
+              <img src="assets/oii-summer-school.jpg" alt="Oxford Internet Institute summer programme" loading="lazy" />
+            </figure>
+          </div>
+
+          <hr class="sep" />
+
+          <!-- Industry -->
+          <div class="pair reverse">
+            <div class="pair-text">
+              <p>
+                Alongside my academic career, I have professional experience in industry, including roles as a sales and product manager at an IT company, an online information services office, and a user experience researcher in different organizations.
+              </p>
+            </div>
+            <figure class="photo photo--pair pair-figure">
+              <img src="assets/industry.jpg" alt="Industry experience photo" loading="lazy" />
+            </figure>
+          </div>
+
+        </article>
+</div>
+    </section>
   </main>
-
-  <script>
-    (function () {
-      var y = document.getElementById("year");
-      if (y) y.textContent = new Date().getFullYear();
-    })();
-  </script>
 </body>
 </html>

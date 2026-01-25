@@ -128,13 +128,20 @@
       height:100%;
       display:block;
       object-fit:cover;
+      object-position:center;
     }
+
+    /* Per-photo adjustments */
+    .photo.pos-top img{object-position:center top;}
+    .photo.fit-contain{background:#f1f5f9;}
+    .photo.fit-contain img{object-fit:contain;}
 
     /* Photo sizing helpers */
     .photo--hero{aspect-ratio: 16 / 7;}
     .photo--wide{aspect-ratio: 16 / 8;}
     .photo--std{aspect-ratio: 16 / 9;}
     .photo--pair{aspect-ratio: 4 / 3;}
+    .photo--tall{aspect-ratio: 4 / 5;}
 
     /* Text + photo alignment without boxed sections */
     .pair{
@@ -189,7 +196,7 @@
             I have been an Associate Professor in the School of Information Science at the University of South Carolina since 2023, after joining the University in 2017 as an Assistant Professor. My research investigates how information is created, used, and shared in digital environments. I apply computational and data science methods to address real-world problems in social contexts. I have published in areas including artificial intelligence, health informatics, misinformation, social media analytics, and the science of science. I also design and teach foundational and emerging courses at the undergraduate, graduate, and PhD levels in both face-to-face and fully online formats.
           </p>
 
-          <figure class="photo photo--wide">
+          <figure class="photo photo--tall fit-contain">
             <img src="https://ehsannu.github.io/assets/images/University%20of%20South%20Carolina-Ehsan%20Mohammadi1.JPG" alt="" loading="lazy" />
           </figure>
 
@@ -205,7 +212,7 @@
                 Earlier in the United Kingdom, I was part of a research team at the University of Wolverhampton’s Science Park that evaluated the Knowledge Exchange and Enterprise Network (KEEN) program, strengthening my interest in how knowledge moves across institutions and communities.
               </p>
             </div>
-            <figure class="photo photo--pair pair-figure">
+            <figure class="photo photo--pair pos-top pair-figure">
               <img src="https://ehsannu.github.io/assets/images/Northrwestern%20Photo-Ehsan%20Mohammadi.JPG" alt="Northwestern University Feinberg School of Medicine" loading="lazy" />
             </figure>
           </div>

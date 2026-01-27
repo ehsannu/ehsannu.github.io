@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Home -->
+  <url>
+    <loc>https://ehsanmohammadi.com/</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg</image:loc>
+      <image:caption>Portrait of Dr. Ehsan Mohammadi</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Ehsan%20Mohammadi-Profile%201.png</image:loc>
+      <image:caption>Dr. Ehsan Mohammadi profile photo (1)</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Ehsan%20Mohammadi-Profile%202.jpg</image:loc>
+      <image:caption>Dr. Ehsan Mohammadi profile photo (2)</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Ehsan%20Mohammadi-Profile%203.jpg</image:loc>
+      <image:caption>Dr. Ehsan Mohammadi profile photo (3)</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Ehsan%20Mohammadi-Profile%204.jpg</image:loc>
+      <image:caption>Dr. Ehsan Mohammadi profile photo (4)</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Bio -->
+  <url>
+    <loc>https://ehsanmohammadi.com/bio.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/University%20of%20South%20Carolina-Ehsan%20Mohammadi1.JPG</image:loc>
+      <image:caption>Dr. Ehsan Mohammadi at the University of South Carolina</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Northrwestern%20Photo-Ehsan%20Mohammadi.JPG</image:loc>
+      <image:caption>Dr. Ehsan Mohammadi at Northwestern University</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/PhD%20Research%20Photo-Ehsan%20Mohammadi.JPG</image:loc>
+      <image:caption>Dr. Ehsan Mohammadi during PhD years in the United Kingdom</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Summer%20Doctoral%20Programme%20at%20the%20Oxford%20Internet%20Institute-Ehsan%20Mohammadi.jpg</image:loc>
+      <image:caption>Summer Doctoral Programme at the Oxford Internet Institute, University of Oxford</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://ehsanmohammadi.com/assets/images/Industry%20experience%20Photo-Ehsan%20Mohammadi1.JPG</image:loc>
+      <image:caption>Industry experience and professional roles</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Research -->
+  <url>
+    <loc>https://ehsanmohammadi.com/research.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Teaching -->
+  <url>
+    <loc>https://ehsanmohammadi.com/teaching.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

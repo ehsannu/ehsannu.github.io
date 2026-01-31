@@ -9,17 +9,24 @@
   <meta name="description" content="Dr. Ehsan Mohammadi, Associate Professor in Information Science. Research in human-centered AI, information seeking, scholarly communication, and health misinformation." />
   <link rel="canonical" href="https://www.ehsanmohammadi.com/" />
 
+  <!-- Indexing directives -->
+  <meta name="robots" content="index,follow,max-image-previFew:large" />
+  <meta name="googlebot" content="index,follow,max-image-preview:large" />
+
   <!-- Open Graph -->
   <meta property="og:title" content="Dr. Ehsan Mohammadi | Associate Professor" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.ehsanmohammadi.com/" />
   <meta property="og:description" content="Research in human-centered AI, information seeking, scholarly communication, and health misinformation." />
-  <meta property="og:image" content="/assets/og.jpg" />
+  <meta property="og:image" content="https://www.ehsanmohammadi.com/assets/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Dr. Ehsan Mohammadi" />
   <meta name="twitter:description" content="Associate Professor. Human-centered AI and information science." />
+  <meta name="twitter:image" content="https://www.ehsanmohammadi.com/assets/og.jpg" />
 
   <link rel="icon" href="/assets/favicon.png" />
 
@@ -38,21 +45,49 @@
         "@id": "https://www.ehsanmohammadi.com/#website",
         "url": "https://www.ehsanmohammadi.com/",
         "name": "Dr. Ehsan Mohammadi",
+        "inLanguage": "en-US",
         "publisher": { "@id": "https://www.ehsanmohammadi.com/#person" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.ehsanmohammadi.com/#webpage",
+        "url": "https://www.ehsanmohammadi.com/",
+        "name": "Dr. Ehsan Mohammadi | Associate Professor",
+        "isPartOf": { "@id": "https://www.ehsanmohammadi.com/#website" },
+        "about": { "@id": "https://www.ehsanmohammadi.com/#person" },
+        "primaryImageOfPage": { "@id": "https://www.ehsanmohammadi.com/#primaryimage" }
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.ehsanmohammadi.com/#primaryimage",
+        "url": "https://ehsannu.github.io/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg"
       },
       {
         "@type": "Person",
         "@id": "https://www.ehsanmohammadi.com/#person",
         "name": "Ehsan Mohammadi",
+        "alternateName": "Dr. Ehsan Mohammadi",
         "honorificPrefix": "Dr.",
         "jobTitle": "Associate Professor",
         "url": "https://www.ehsanmohammadi.com/",
+        "image": "https://ehsannu.github.io/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg",
         "affiliation": [
           { "@type": "Organization", "name": "University of South Carolina" },
           { "@type": "Organization", "name": "College of Information and Communications" },
           { "@type": "Organization", "name": "School of Information Science" }
         ],
-        "image": "https://ehsannu.github.io/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg"
+        "sameAs": [
+          "https://ehsanmohammadi.com/ehsanmohammadi-entity-home/",
+          "https://sc.edu/study/colleges_schools/cic/faculty-staff/mohammadi_ehsan.php",
+          "https://orcid.org/0000-0003-3481-6991",
+          "https://www.wikidata.org/wiki/Q57911399",
+          "https://scholar.google.com/citations?hl=en&user=ddrRUEMAAAAJ&view_op=list_works&sortby=pubdate",
+          "https://hidalab.org/",
+          "https://www.researchgate.net/profile/Ehsan-Mohammadi-8?ev=hdr_xprf",
+          "https://www.linkedin.com/in/ehsan-mohammadi-57506b32",
+          "https://www.google.com/search?kgmid=/g/11h0lbv6r8&q=Ehsan+Mohammadi",
+          "https://share.google/IqIReHontfnAuI1W3"
+        ]
       }
     ]
   }
@@ -538,7 +573,7 @@
           <a href="/bio.html">Bio</a>
           <a href="/research.html">Research</a>
           <a href="/teaching.html">Teaching</a>
-                    <a href="#news">Updates</a>
+          <a href="#news">Updates</a>
         </nav>
       </div>
     </div>

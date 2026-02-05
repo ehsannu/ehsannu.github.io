@@ -6,20 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <title>Research | Dr. Ehsan Mohammadi</title>
-  <meta name="description" content="Research and publications by Dr. Ehsan Mohammadi, Associate Professor at the University of South Carolina." />
-  <link rel="canonical" href="https://www.ehsanmohammadi.com/research.html" />
+  <meta name="description" content="Research and publications by Dr. Ehsan Mohammadi, Associate Professor at the University of South Carolina. Includes peer reviewed articles, metrics, and DOI links." />
+  <meta name="keywords" content="Ehsan Mohammadi, Dr. Ehsan Mohammadi, research, publications, scientometrics, altmetrics, AI literacy, misinformation, information science, University of South Carolina" />
+  <meta name="author" content="Dr. Ehsan Mohammadi" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#1f4fd6" />
+
+  <link rel="canonical" href="https://ehsanmohammadi.com/research" />
+  <link rel="alternate" hreflang="en" href="https://ehsanmohammadi.com/research" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Research | Dr. Ehsan Mohammadi" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.ehsanmohammadi.com/research.html" />
-  <meta property="og:description" content="Research and publications by Dr. Ehsan Mohammadi." />
-  <meta property="og:image" content="/assets/og.jpg" />
+  <meta property="og:url" content="https://ehsanmohammadi.com/research" />
+  <meta property="og:description" content="Research and publications by Dr. Ehsan Mohammadi. Peer reviewed articles with DOI links and metrics." />
+  <meta property="og:site_name" content="Dr. Ehsan Mohammadi" />
+  <meta property="og:image" content="https://ehsanmohammadi.com/assets/og.jpg" />
+  <meta property="og:image:alt" content="Research and publications by Dr. Ehsan Mohammadi" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Research | Dr. Ehsan Mohammadi" />
-  <meta name="twitter:description" content="Research and publications by Dr. Ehsan Mohammadi." />
+  <meta name="twitter:description" content="Research and publications by Dr. Ehsan Mohammadi. Peer reviewed articles with DOI links and metrics." />
+  <meta name="twitter:image" content="https://ehsanmohammadi.com/assets/og.jpg" />
 
   <link rel="icon" href="/assets/favicon.png" />
 
@@ -35,32 +45,54 @@
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://www.ehsanmohammadi.com/#website",
-        "url": "https://www.ehsanmohammadi.com/",
+        "@id": "https://ehsanmohammadi.com/#website",
+        "url": "https://ehsanmohammadi.com/",
         "name": "Dr. Ehsan Mohammadi",
-        "publisher": { "@id": "https://www.ehsanmohammadi.com/#person" }
+        "inLanguage": "en-US",
+        "publisher": { "@id": "https://ehsanmohammadi.com/#person" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ehsanmohammadi.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "Person",
-        "@id": "https://www.ehsanmohammadi.com/#person",
+        "@id": "https://ehsanmohammadi.com/#person",
         "name": "Ehsan Mohammadi",
+        "alternateName": [
+          "Dr. Ehsan Mohammadi",
+          "احسان محمدی"
+        ],
         "honorificPrefix": "Dr.",
         "jobTitle": "Associate Professor",
-        "url": "https://www.ehsanmohammadi.com/",
+        "url": "https://ehsanmohammadi.com/",
+        "image": "https://ehsannu.github.io/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg",
         "affiliation": [
-          { "@type": "Organization", "name": "University of South Carolina" },
-          { "@type": "Organization", "name": "College of Information and Communications" },
-          { "@type": "Organization", "name": "School of Information Science" }
+          { "@type": "Organization", "name": "University of South Carolina", "url": "https://sc.edu" },
+          { "@type": "Organization", "name": "College of Information and Communications", "url": "https://sc.edu/study/colleges_schools/cic/" },
+          { "@type": "Organization", "name": "School of Information Science", "url": "https://sc.edu/study/colleges_schools/cic/academic_programs/information_science/" }
         ],
-        "image": "https://ehsannu.github.io/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg"
+        "worksFor": { "@type": "Organization", "name": "University of South Carolina", "url": "https://sc.edu" },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q57911399",
+          "https://share.google/FdRCJDqLgMwkRg1TY",
+          "https://share.google/DJkmH6b5bqYMoQ1DT",
+          "https://orcid.org/0000-0002-9407-503X",
+          "https://sites.google.com/view/ehsan-mohammadi/welcome",
+          "https://hidalab.org/"
+        ]
       },
       {
         "@type": "CollectionPage",
-        "@id": "https://www.ehsanmohammadi.com/research.html#page",
-        "url": "https://www.ehsanmohammadi.com/research.html",
+        "@id": "https://ehsanmohammadi.com/research#page",
+        "url": "https://ehsanmohammadi.com/research",
         "name": "Research",
-        "isPartOf": { "@id": "https://www.ehsanmohammadi.com/#website" },
-        "about": { "@id": "https://www.ehsanmohammadi.com/#person" }
+        "description": "Selected peer reviewed publications and research outputs by Dr. Ehsan Mohammadi.",
+        "inLanguage": "en-US",
+        "isPartOf": { "@id": "https://ehsanmohammadi.com/#website" },
+        "about": { "@id": "https://ehsanmohammadi.com/#person" },
+        "primaryImageOfPage": { "@type": "ImageObject", "url": "https://ehsanmohammadi.com/assets/og.jpg" }
       }
     ]
   }
@@ -448,7 +480,7 @@
         <nav class="primary" aria-label="Primary">
           <a href="/">Home</a>
           <a href="/bio.html">Bio</a>
-          <a href="/research.html" aria-current="page">Research</a>
+          <a href="/research" aria-current="page">Research</a>
           <a href="/teaching.html">Teaching</a>
           <a href="/#news">Updates</a>
         </nav>
@@ -459,7 +491,7 @@
   <main id="main">
     <div class="container">
       <h1 class="page-title">Publications</h1>
-      <p class="lead">Selected peer-reviewed publications and research outputs. Altmetric and citation badges appear when JavaScript is enabled and identifiers are available.</p>
+      <p class="lead">Selected peer-reviewed publications and research outputs. Altmetric and citation badges appear when JavaScript is enabled and identifiers are available. Related work, projects, and funding details are available on the <a href="/bio.html">biography</a>, <a href="/teaching.html">teaching</a>, and <a href="/#news">updates</a> pages.</p>
 
       <section class="pub-list" aria-label="Publication list">
 

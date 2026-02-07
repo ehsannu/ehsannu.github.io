@@ -16,6 +16,17 @@
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <meta name="googlebot" content="index,follow,max-image-preview:large" />
 
+  <!-- Entity consolidation & disambiguation -->
+  <meta name="google-site-verification" content="REPLACE_WITH_GSC_CODE" />
+  <meta name="bingbot" content="index,follow" />
+  <meta name="rating" content="general" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- Name disambiguation boosters -->
+  <meta name="subject" content="Ehsan Mohammadi, Associate Professor of Information Science, University of South Carolina" />
+  <meta name="classification" content="Academic researcher, professor, data science, AI" />
+  <meta name="copyright" content="Dr. Ehsan Mohammadi" />
+
   <!-- Open Graph -->
   <meta property="og:title" content="Dr. Ehsan Mohammadi | Information Science | USC iSchool" />
   <meta property="og:type" content="website" />
@@ -34,6 +45,9 @@
   <meta name="twitter:image" content="https://ehsanmohammadi.com/assets/og.jpg" />
 
   <link rel="icon" href="/assets/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
 
   <!-- Typography: modern + academic -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,12 +55,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet" />
 
   <!-- Schema.org (JSON-LD) -->
-  <script type="application/ld+json">
+  <link rel="alternate" hreflang="en" href="https://ehsanmohammadi.com/" />
+<link rel="alternate" hreflang="fa" href="https://ehsanmohammadi.com/" />
+<link rel="alternate" hreflang="x-default" href="https://ehsanmohammadi.com/" />
+
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebSite",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.google.com/search?q=Ehsan+Mohammadi+Information+Science",
+          "query-input": "required name=search_term_string"
+        },
         "@id": "https://ehsanmohammadi.com/#website",
         "url": "https://ehsanmohammadi.com/",
         "name": "Dr. Ehsan Mohammadi",
@@ -75,6 +98,7 @@
       },
       {
         "@type": "Person",
+        "disambiguatingDescription": "Associate Professor of Information Science at the University of South Carolina; Director of the Hi Da Research Lab; researcher in AI, data science, and health informatics.",
         "@id": "https://ehsanmohammadi.com/#person",
         "name": "Ehsan Mohammadi",
         "alternateName": ["Dr. Ehsan Mohammadi", "احسان محمدی"],
@@ -132,6 +156,11 @@
           }
         ],
         "sameAs": [
+          "https://en.wikipedia.org/wiki/Ehsan_Mohammadi",
+          "https://dblp.org/search?q=Ehsan+Mohammadi",
+          "https://www.semanticscholar.org/author/Ehsan-Mohammadi/",
+          "https://www.scopus.com/authid/detail.uri?authorId=",
+
           "https://ehsanmohammadi.com/ehsanmohammadi-entity-home/",
           "https://sc.edu/study/colleges_schools/cic/faculty-staff/mohammadi_ehsan.php",
           "https://orcid.org/0000-0003-3481-6991",
@@ -645,7 +674,7 @@
 
         <aside aria-label="Portrait">
           <figure class="portrait">
-            <img src="/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg" alt="Headshot of Dr. Ehsan Mohammadi" onerror="this.style.display='none'" />
+            <img loading="eager" fetchpriority="high" src="/assets/images/Ehsan%20Mohammadi-Main%20Profile.jpg" alt="Headshot of Dr. Ehsan Mohammadi" onerror="this.style.display='none'" />
           </figure>
         </aside>
       </section>

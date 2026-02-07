@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>پژوهش های دکتر احسان محمدی</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: "Vazirmatn", "IRANSans", Arial, sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem 1.5rem;
+      background-color: #ffffff;
+    }
+    header {
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 1.9rem;
+      margin: 0 0 0.5rem 0;
+    }
+    header p {
+      margin: 0.2rem 0;
+      font-size: 0.98rem;
+    }
+    header a {
+      color: #1565c0;
+      text-decoration: none;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
+    .note {
+      background: #f5f5f5;
+      border-radius: 6px;
+      padding: 0.8rem 1rem;
+      margin-top: 0.8rem;
+      font-size: 0.9rem;
+    }
+    .pub-list {
+      margin-top: 2rem;
+    }
+    .pub-item {
+      border-right: 4px solid #eeeeee;
+      padding: 1.2rem 1.2rem 1.2rem 0.2rem;
+      margin-bottom: 1.5rem;
+      background-color: #fcfcfc;
+      border-radius: 6px;
+    }
+    .pub-item:nth-child(odd) {
+      background-color: #fdfdfd;
+    }
+    .pub-item h3 {
+      margin: 0 0 0.4rem 0;
+      font-size: 1.05rem;
+    }
+    .pub-item h3 a {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+    .pub-item h3 a:hover {
+      text-decoration: underline;
+    }
+    .pub-meta {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 0.1rem 0 0.4rem 0;
+    }
+    .pub-meta span {
+      margin-left: 0.4rem;
+    }
+    .doi {
+      font-size: 0.9rem;
+      margin: 0.2rem 0 0.6rem 0;
+    }
+    .doi a {
+      color: #1565c0;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .doi a:hover {
+      text-decoration: underline;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .abstract-fa {
+      font-size: 0.95rem;
+      margin: 0.4rem 0;
+      text-align: justify;
+    }
+    .keywords-en,
+    .keywords-fa {
+      font-size: 0.9rem;
+      margin: 0.2rem 0;
+    }
+    footer {
+      border-top: 1px solid #e0e0e0;
+      margin-top: 3rem;
+      padding-top: 1.2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    footer a {
+      color: #1565c0;
+      text-decoration: none;
+      margin: 0 0.2rem;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .footer-links {
+      margin-bottom: 0.8rem;
+    }
+    .footer-note {
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>پژوهشهای <span>احسان محمدی</span></h1>
+      <p>
+        دکتر <strong>احسان محمدی</strong> دانشیار و مدیر برنامه دکتری در 
+        <span>School of Information Science</span> در دانشگاه کارولینای جنوبی است. 
+        حوزه‌های کاری او شامل هوش مصنوعی کاربردی، تحلیل رسانه های اجتماعی، تحلیل داده های کلان، سواد هوش مصنوعی، علم‌ واجتماع، 
+        انفورماتیک پزشکی و سلامت، و مطالعه ابعاد اجتماعی – شناختی اطلاعات نادرست است.
+      </p>
+      <p>
+        او بنیان‌گذار <strong>Hi Da Lab</strong> (Human Insight for Data &amp; AI Lab) است 
+      </p>
+      <p>
+        برای زندگی‌نامه کوتاه احسان محمدی، می‌توانید به صفحه
+        <a href="https://www.ehsanmohammadi.com/persian" target="_blank" rel="noopener">« درباره احسان محمدی به فارسی»</a>
+        مراجعه کنید.
+      </p>
+      <div class="note">
+        <strong>توضیح:</strong>
+        چکیده‌های زیر ترجمه یا بازنویسی علمی چکیده مقالات اصلی هستند و ممکن است به صورت دقیق بازنمون متن اصلی انگلیسی نباشد.
+      </div>
+    </header>
+
+    <section class="pub-list" id="publications">
+
+      <!-- 1. Generative AI / IPM -->
+      <article class="pub-item" id="pub-genai-ipm-2026">
+        <h3>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0306457325001869" target="_blank" rel="noopener">
+            Is generative AI reshaping academic practices worldwide? A survey of adoption, benefits, and concerns
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Information Processing &amp; Management، ۲۰۲۶ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1016/j.ipm.2025.104350" target="_blank" rel="noopener">
+            10.1016/j.ipm.2025.104350
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این پژوهش با استفاده از یک پیمایش بین‌المللی، نحوه به‌کارگیری 
+          <strong>هوش مصنوعی مولد</strong> را در فعالیت‌های پژوهشی و آموزشی دانشگاهیان بررسی می‌کند. 
+          نتایج نشان می‌دهد که بسیاری از اعضای هیئت علمی، پژوهشگران و دانشجویان از این ابزارها برای 
+          ایده‌پردازی، ویرایش متن، تحلیل داده و طراحی فعالیت‌های آموزشی استفاده می‌کنند، اما در عین حال 
+          نسبت به مسائلی مانند تقلب علمی، سوگیری الگوریتمی، نقض حریم خصوصی و کاهش مهارت‌های سنتی نوشتن و 
+          تفکر انتقادی نگران هستند. تفاوت‌هایی میان حوزه‌های علمی، مناطق جغرافیایی و گروه‌های جمعیتی مختلف 
+          دیده می‌شود که نشان‌دهنده نیاز به سیاست‌گذاری روشن، راهنماهای اخلاقی و برنامه‌های سواد هوش مصنوعی 
+          در آموزش عالی است.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Generative AI; AI in research; AI in teaching; AI in higher education
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          هوش مصنوعی مولد؛ هوش مصنوعی در پژوهش؛ هوش مصنوعی در آموزش؛ هوش مصنوعی در آموزش عالی
+        </p>
+      </article>
+
+      <!-- 2. Google Vision AI / AI and Ethics -->
+      <article class="pub-item" id="pub-visionai-2025">
+        <h3>
+          <a href="https://link.springer.com/article/10.1007/s43681-025-00742-4" target="_blank" rel="noopener">
+            Who is a scientist? Gender and racial biases in Google Vision AI
+          </a>
+        </h3>
+        <p class="pub-meta">
+          AI and Ethics، ۲۰۲۵ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1007/s43681-025-00742-4" target="_blank" rel="noopener">
+            10.1007/s43681-025-00742-4
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله بررسی می‌کند که سرویس <strong>Google Vision AI</strong> چگونه تصاویر دانشمندان را 
+          از نظر جنسیت و نژاد برچسب‌گذاری می‌کند. با استفاده از مجموعه‌ای از تصاویر که ترکیب متنوعی از 
+          زنان و مردان و همچنین گروه‌های نژادی مختلف را شامل می‌شود، نتایج نشان می‌دهد که این سامانه 
+          بیشتر تصاویر را به عنوان «مرد» و «سفیدپوست» برچسب می‌زند. تصاویر زنان و افراد غیرسفیدپوست در 
+          بسیاری از موارد با برچسب‌هایی مرتبط با ظاهر، زیبایی یا نقش‌های کلیشه‌ای توصیف می‌شوند و کمتر 
+          به عنوان «دانشمند» یا عنوان‌های حرفه‌ای مشابه شناخته می‌شوند. این یافته‌ها نشان می‌دهد که مدل‌های 
+          تشخیص تصویر می‌توانند سوگیری‌های اجتماعی و داده‌های آموزشی نابرابر را بازتولید کنند و بر این اساس، 
+          ضرورت توجه به عدالت الگوریتمی، شفافیت و ارزیابی مستمر سوگیری در سامانه‌های بینایی ماشین را برجسته می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          AI fairness; AI biases; Visual content perception; Algorithmic fairness
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          انصاف در هوش مصنوعی؛ سوگیری‌های هوش مصنوعی؛ ادراک محتوای بصری؛ انصاف الگوریتمی
+        </p>
+      </article>
+
+     
+        </p>
+      </article>
+
+      <!-- 4. NLP Journal – vaccination -->
+      <article class="pub-item" id="pub-nlp-vaccine-2024">
+        <h3>
+          <a href="https://www.sciencedirect.com/science/article/pii/S2949710X24000240" target="_blank" rel="noopener">
+            Cutting through the noise to motivate people: COVID-19 social media posts de/motivating vaccination
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Natural Language Processing Journal، ۲۰۲۴ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1016/j.nlp.2024.100085" target="_blank" rel="noopener">
+            10.1016/j.nlp.2024.100085
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این پژوهش با بهره‌گیری از روش‌های پردازش زبان طبیعی و تحلیل محتوا، 
+          پیام‌های مرتبط با واکسن کووید ۱۹ در شبکه‌های اجتماعی را که می‌توانند مردم را 
+          به واکسیناسیون تشویق یا از آن منصرف کنند، بررسی می‌کند. مطالعه نشان می‌دهد که ترکیب 
+          اطلاعات دقیق علمی با روایت‌های احساسی مثبت و تأکید بر مسئولیت جمعی، انگیزش به واکسیناسیون را 
+          افزایش می‌دهد، در حالی که پیام‌های مملو از ترس، بی‌اعتمادی به نهادها، نظریه‌های توطئه و تأکید 
+          بر عوارض نادر، تردید و امتناع از واکسن را تقویت می‌کنند. نتایج برای طراحی کمپین‌های ارتباطی 
+          سلامت که هم از نظر احساسی و هم از نظر اطلاعاتی کارآمد باشند، راهنماهای عملی ارائه می‌دهد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Misinformation; Motivation; Vaccine hesitancy; Science communication; Social media; Social psychology
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          اطلاعات نادرست؛ انگیزش؛ تردید درباره واکسن؛ ارتباطات علمی؛ شبکه‌های اجتماعی؛ روان‌شناسی اجتماعی
+        </p>
+      </article>
+
+      <!-- 5. Bots / Aslib Journal -->
+      <article class="pub-item" id="pub-bots-twitter-2024">
+        <h3>
+          <a href="https://www.emerald.com/insight/content/doi/10.1108/AJIM-01-2024-00503/full/html" target="_blank" rel="noopener">
+            Public interest in science or bots? Selective amplification of scientific articles on Twitter
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Aslib Journal of Information Management، ۲۰۲۴ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1108/AJIM-01-2024-00503" target="_blank" rel="noopener">
+            10.1108/AJIM-01-2024-00503
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله بررسی می‌کند که آیا تعامل با مقالات علمی در توییتر عمدتا حاصل 
+          علاقه واقعی کاربران است یا بخشی از آن توسط حساب‌های خودکار (بات‌ها) ساخته می‌شود. 
+          با استفاده از داده‌های آلتمتریک و ابزارهایی برای تشخیص بات، نویسندگان نشان می‌دهند که 
+          بخش قابل‌توجهی از بازنشرها توسط حساب‌های خودکار انجام می‌شود که به صورت گزینشی روی 
+          موضوعات خاص، مجلات مشخص یا سازمان‌های ویژه تمرکز دارند. در عین حال، تعامل انسانی همچنان 
+          نقش مهمی در دیده‌شدن پژوهش‌ها دارد، اما ترکیب این دو نوع انتشار، تصویری پیچیده از «توجه عمومی» 
+          به علم ارائه می‌کند که لزوما به معنای علاقه خودانگیخته شهروندان نیست. مقاله بر ضرورت 
+          تفسیر محتاطانه آلتمتریک‌ها و در نظر گرفتن نقش بات‌ها در تحلیل توجه آنلاین به علم تأکید می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Social media; Twitter; Altmetric; Botometer; Spam prediction; Bots; Academia
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          شبکه‌های اجتماعی؛ توییتر؛ آلتمتریک؛ Botometer؛ پیش‌بینی اسپم؛ بات‌ها؛ دانشگاه و پژوهش
+        </p>
+      </article>
+
+      <!-- 6. JAMA – Eating disorder videos -->
+      <article class="pub-item" id="pub-jama-ed-2023">
+        <h3>
+          <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2803947" target="_blank" rel="noopener">
+            Assessment of Accuracy, User Engagement, and Themes of Eating Disorder Content in Social Media Short Videos
+          </a>
+        </h3>
+        <p class="pub-meta">
+          JAMA Network Open، ۲۰۲۳ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1001/jamanetworkopen.2023.8897" target="_blank" rel="noopener">
+            10.1001/jamanetworkopen.2023.8897
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مطالعه به صورت نظام‌مند مجموعه‌ای از ویدئوهای کوتاه مرتبط با اختلالات خوردن 
+          را در پلتفرم‌های رسانه اجتماعی بررسی می‌کند تا <strong>درستی اطلاعات پزشکی</strong>، 
+          سطح تعامل کاربران و <strong>الگوهای محتوایی</strong> را ارزیابی کند. متخصصان سلامت، 
+          ویدئوها را از نظر هم‌خوانی با شواهد علمی، نوع پیام (حمایت از درمان، عادی‌سازی رفتار ناسالم، 
+          تجربیات شخصی و غیره) و وجود عناصر بالقوه مضر کدگذاری کردند. نتایج نشان می‌دهد که اگرچه این 
+          ویدئوها حجم بالایی از بازدید، لایک و اشتراک‌گذاری را جذب می‌کنند، بخش قابل‌توجهی از آنها 
+          حاوی اطلاعات ناقص، گمراه‌کننده یا پیام‌هایی است که می‌تواند رفتارهای ناسالم را عادی‌سازی یا 
+          تقویت کند. مقاله بر نیاز به مداخله‌ سیاست‌گذاران، پلتفرم‌ها و متخصصان سلامت برای ترویج 
+          محتوای معتبر و کاهش انتشار پیام‌های آسیب‌زا تأکید می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Eating disorders; Social media; Short videos; TikTok; Misinformation; User engagement; Health communication
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          اختلالات خوردن؛ شبکه‌های اجتماعی؛ ویدئوی کوتاه؛ تیک‌تاک؛ اطلاعات نادرست؛ تعامل کاربر؛ ارتباطات سلامت
+        </p>
+      </article>
+
+      <!-- 7. Software testing – JSS -->
+      <article class="pub-item" id="pub-software-testing-2023">
+        <h3>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0164121222001947" target="_blank" rel="noopener">
+            Mapping the structure and evolution of software testing research over the past three decades
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Journal of Systems and Software، ۲۰۲۳ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1016/j.jss.2022.111518" target="_blank" rel="noopener">
+            10.1016/j.jss.2022.111518
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله با استفاده از تحلیل هم‌واژه‌ای و روش‌های علم‌سنجی، 
+          هزاران مقاله در حوزه <strong>آزمون نرم‌افزار</strong> در سه دهه گذشته را بررسی می‌کند تا 
+          ساختار مفهومی و روندهای تحول این حوزه ترسیم شود. نویسندگان شبکه‌ای از کلیدواژه‌ها می‌سازند، 
+          آن را به خوشه‌های موضوعی تقسیم می‌کنند و نشان می‌دهند که موضوعاتی مانند تولید خودکار تست، 
+          نگهداشت و تکامل نرم‌افزار، تست اوراکل‌ها و آزمون برای سامانه‌های وب و موبایل، گره‌های مرکزی 
+          این شبکه را شکل می‌دهند. مطالعه همچنین ظهور موضوعاتی مانند یادگیری ماشین، مصرف انرژی و 
+          تعمیر خودکار برنامه‌ها و در مقابل کاهش نسبی برخی موضوعات سنتی را نشان می‌دهد. نقشه حاصل، 
+          تصویری کلان از روابط موضوعی و خلأهای پژوهشی ارائه می‌کند که می‌تواند برای پژوهشگران و سیاست‌گذاران 
+          پژوهشی راهگشا باشد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Software testing; Bibliometrics; Co-word analysis; Research trends; Knowledge mapping
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          آزمون نرم‌افزار؛ علم‌سنجی؛ تحلیل هم‌واژه‌ای؛ روندهای پژوهش؛ نقشه دانش
+        </p>
+      </article>
+
+      <!-- 8. Big Data – book chapter -->
+      <article class="pub-item" id="pub-bigdata-chapter-2022">
+        <h3>
+          <a href="#" target="_blank" rel="noopener">
+            Big Data. Communication Technology Update and Fundamentals (Book Chapter)
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Communication Technology Update and Fundamentals، ۲۰۲۲ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>برای این فصل DOI رسمی در دسترس نیست</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این فصل کتاب به معرفی <strong>کلان‌داده</strong> در بستر فناوری‌های ارتباطی می‌پردازد و 
+          منابع تولید داده، ویژگی‌ها و چالش‌های تحلیلی آن را مرور می‌کند. نویسندگان ضمن توضیح مفاهیمی مانند 
+          حجم، تنوع و سرعت داده، نمونه‌هایی از کاربرد کلان‌داده در رسانه‌ها، بازاریابی، سلامت و علوم اجتماعی 
+          ارائه می‌کنند و نشان می‌دهند که چگونه زیرساخت‌های فنی، الگوریتم‌ها و مهارت‌های تحلیلی جدید برای 
+          بهره‌برداری از این داده‌ها ضروری است. در عین حال، پیامدهای اخلاقی و اجتماعی کلان‌داده، از جمله 
+          حریم خصوصی، نظارت، تبعیض الگوریتمی و تمرکز قدرت اطلاعاتی نیز برجسته می‌شود تا خواننده تصویری 
+          متوازن از فرصت‌ها و مخاطرات کلان‌داده به دست آورد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Big data; Data analytics; Communication technologies; Privacy; Ethics; Social implications
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          کلان‌داده؛ تحلیل داده؛ فناوری‌های ارتباطی؛ حریم خصوصی؛ اخلاق؛ پیامدهای اجتماعی
+        </p>
+      </article>
+
+      <!-- 9. WHO & Twitter – JMIR -->
+      <article class="pub-item" id="pub-who-twitter-2022">
+        <h3>
+          <a href="https://www.jmir.org/2022/4/e34321" target="_blank" rel="noopener">
+            The Mutual Influence of the World Health Organization (WHO) and Twitter Users During COVID-19: Network Agenda-Setting Analysis
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Journal of Medical Internet Research، ۲۰۲۲ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.2196/34321" target="_blank" rel="noopener">
+            10.2196/34321
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این پژوهش با استفاده از چارچوب <strong>تنظیم دستور کار شبکه‌ای</strong>، 
+          رابطه دوسویه میان موضوعات مطرح شده در حساب رسمی توییتر سازمان جهانی بهداشت (WHO) و 
+          موضوعات مورد بحث دنبال‌کنندگان آن در دوران پاندمی کووید ۱۹ را بررسی می‌کند. با تحلیل محتوای 
+          هزاران توییت و ترسیم شبکه‌ای از موضوعات، مطالعه نشان می‌دهد که WHO در شکل‌دهی به گفتمان عمومی 
+          پیرامون سلامت، پیشگیری و سیاست‌های مرتبط با کووید ۱۹ نقش مهمی دارد، اما در عین حال، 
+          واکنش‌ها و دغدغه‌های کاربران نیز بر جهت‌گیری پیام‌های بعدی WHO تأثیر می‌گذارد. این رابطه 
+          متقابل نشان می‌دهد که ارتباطات سلامت در رسانه‌های اجتماعی فرایندی یک‌سویه نیست و سازمان‌های 
+          بهداشتی باید به بازخورد و دستور کار مخاطبان خود حساس باشند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          COVID-19; World Health Organization; Social media; Twitter; Network agenda-setting; Health communication
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          کووید ۱۹؛ سازمان جهانی بهداشت؛ شبکه‌های اجتماعی؛ توییتر؛ تنظیم دستور کار شبکه‌ای؛ ارتباطات سلامت
+        </p>
+      </article>
+
+      <!-- 10. Big data across disciplines – JIS -->
+      <article class="pub-item" id="pub-bigdata-jis-2022">
+        <h3>
+          <a href="https://journals.sagepub.com/doi/10.1177/0165551520932855" target="_blank" rel="noopener">
+            Exploring research trends in big data across disciplines: A text mining analysis
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Journal of Information Science، ۲۰۲۲ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1177/0165551520932855" target="_blank" rel="noopener">
+            10.1177/0165551520932855
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله با استفاده از <strong>کاوش متن</strong> و روش‌های علم‌سنجی، 
+          مجموعه‌ای گسترده از مقالات کلان‌داده را در حوزه‌های مختلف علمی تحلیل می‌کند تا روندهای 
+          پژوهشی و الگوهای همکاری را شناسایی کند. تحلیل خوشه‌ای واژگان و هم‌رخدادی آنها نشان می‌دهد 
+          که کلان‌داده در حوزه‌هایی مانند علوم کامپیوتر، پزشکی، علوم اجتماعی، بازرگانی و ارتباطات 
+          چگونه رشد کرده و چه موضوعاتی (مانند یادگیری ماشین، تحلیل احساسات، اینترنت اشیا و سلامت دیجیتال) 
+          به کانون توجه تبدیل شده‌اند. نتایج نشان می‌دهد که گرچه بعضی حوزه‌ها از نظر حجم تولید مقاله پیشرو هستند، 
+          اما همکاری بین‌رشته‌ای و استفاده از روش‌های مشترک، مرزهای سنتی رشته‌ها را جابه‌جا کرده است.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Big data; Text mining; Research trends; Interdisciplinarity; Bibliometrics
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          کلان‌داده؛ کاوش متن؛ روندهای پژوهش؛ میان‌رشته‌ای بودن؛ علم‌سنجی
+        </p>
+      </article>
+
+      <!-- 11. IQOS – Substance Use & Misuse -->
+      <article class="pub-item" id="pub-iqos-2022">
+        <h3>
+          <a href="https://www.tandfonline.com/doi/full/10.1080/10826084.2021.2019777" target="_blank" rel="noopener">
+            Social Media Discussions on the FDA’s Modified Risk Tobacco Product Authorization of IQOS
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Substance Use &amp; Misuse، ۲۰۲۲ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1080/10826084.2021.2019777" target="_blank" rel="noopener">
+            10.1080/10826084.2021.2019777
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این پژوهش گفت‌وگوهای کاربران در شبکه‌های اجتماعی را پس از صدور مجوز 
+          «محصول دخانیاتی با ریسک تعدیل‌شده» برای IQOS از سوی FDA تحلیل می‌کند. نتایج نشان می‌دهد که 
+          کاربران در توییتر و سایر پلتفرم‌ها به صورت هم‌زمان هم درباره مزایای احتمالی (کاهش دود، 
+          به‌ظاهر «کم‌ضررتر» بودن) و هم درباره نگرانی‌های سلامت، تاکتیک‌های بازاریابی و خطر جذب جوانان 
+          بحث می‌کنند. تحلیل احساسات و مضامین نشان می‌دهد که گفتمان عمومی میان پذیرش محتاطانه، 
+          تردید و مخالفت صریح در نوسان است و برداشت‌های نادرست درباره سطح واقعی ریسک نیز وجود دارد. 
+          این یافته‌ها برای طراحی پیام‌های ارتباطی شفاف‌تر درباره محصولات دخانیات گرم‌شونده اهمیت دارد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          IQOS; Heated tobacco products; Social media; Risk communication; Tobacco control; Public perceptions
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          IQOS؛ محصولات دخانیات گرم‌شونده؛ شبکه‌های اجتماعی؛ ارتباطات ریسک؛ کنترل دخانیات؛ برداشت‌های عمومی
+        </p>
+      </article>
+
+      <!-- 12. Infodemic frames – JMIR Infodemiology -->
+      <article class="pub-item" id="pub-infodemic-frames-2022">
+        <h3>
+          <a href="https://infodemiology.jmir.org/2022/1/e33827" target="_blank" rel="noopener">
+            Identifying Frames of the COVID-19 Infodemic: Thematic Analysis of Misinformation Stories Across Media
+          </a>
+        </h3>
+        <p class="pub-meta">
+          JMIR Infodemiology، ۲۰۲۲ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.2196/33827" target="_blank" rel="noopener">
+            10.2196/33827
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله مجموعه‌ای از روایت‌ها و داستان‌های حاوی <strong>اطلاعات نادرست درباره کووید ۱۹</strong> 
+          را در انواع رسانه‌ها (از جمله شبکه‌های اجتماعی، وب‌سایت‌ها و سایر کانال‌های آنلاین) به صورت 
+          کیفی تحلیل می‌کند تا «چارچوب‌های» اصلی مورد استفاده در این روایت‌ها را شناسایی کند. تحلیل 
+          مضمون نشان می‌دهد که بسیاری از داستان‌ها حول محورهایی مانند نظریه‌های توطئه، بی‌اعتمادی به 
+          نهادهای علمی و دولتی، درمان‌های معجزه‌آسا، تقابل آزادی فردی و مقررات بهداشتی، و سیاسی‌شدن 
+          علم سازمان یافته‌اند. این چارچوب‌ها نه تنها محتوای نادرست را منتقل می‌کنند، بلکه شیوه 
+          پردازش اطلاعات و تفسیر رویدادها توسط مخاطبان را نیز تحت تأثیر قرار می‌دهند. مقاله بر ضرورت 
+          پاسخ‌های ارتباطی هدفمند که هر یک از این چارچوب‌های مسلط را به چالش بکشد تأکید می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          COVID-19; Infodemic; Misinformation; Fake news; Framing theory; Social media; Thematic analysis
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          کووید ۱۹؛ اینفودمیک؛ اطلاعات نادرست؛ اخبار جعلی؛ نظریه چارچوب‌بندی؛ شبکه‌های اجتماعی؛ تحلیل مضمونی
+        </p>
+      </article>
+
+      <!-- 13. Hashtags – JMIR -->
+      <article class="pub-item" id="pub-covid-hashtags-2021">
+        <h3>
+          <a href="https://www.jmir.org/" target="_blank" rel="noopener">
+            Framing of and Attention to COVID-19 on Twitter: A Thematic Analysis of Hashtags
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Journal of Medical Internet Research، ۲۰۲۱ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (لطفا DOI دقیق را پیش از انتشار نهایی اضافه کنید)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این پژوهش هشتگ‌های پرکاربرد مرتبط با کووید ۱۹ در توییتر را گردآوری و به صورت 
+          کیفی و کمی تحلیل می‌کند تا مشخص شود چه چارچوب‌هایی بر گفت‌وگوهای آنلاین مسلط هستند و 
+          توجه کاربران چگونه توزیع می‌شود. نتایج نشان می‌دهد که هشتگ‌ها نسل‌بندی موضوعی قدرتمندی ایجاد 
+          می‌کنند؛ برخی بر راهنماهای بهداشتی و مراقبت‌های فردی تمرکز دارند، برخی به کشمکش‌های سیاسی و 
+          قطبی‌شدن گفتمان دامن می‌زنند و برخی بر پیامدهای اقتصادی و اجتماعی بحران تأکید می‌کنند. تحلیل 
+          توجه (مثلا بر اساس تعداد بازنشر و پاسخ‌ها) نشان می‌دهد که چارچوب‌های سیاسی و احساسی غالبا 
+          توجه بیشتری را نسبت به پیام‌های صرفا فنی یا بهداشتی جذب می‌کنند؛ موضوعی که برای طراحی راهبردهای 
+          ارتباطی در بحران‌های سلامت اهمیت دارد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          COVID-19; Twitter; Hashtags; Framing; Social media; Public attention
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          کووید ۱۹؛ توییتر؛ هشتگ؛ چارچوب‌بندی؛ شبکه‌های اجتماعی؛ توجه عمومی
+        </p>
+      </article>
+
+      <!-- 14. Encyclopedias – EPI -->
+      <article class="pub-item" id="pub-encyclopedias-2021">
+        <h3>
+          <a href="https://revista.profesionaldelainformacion.com/" target="_blank" rel="noopener">
+            How are encyclopedias cited in academic research? Wikipedia, Britannica, Baidu Baike, and Scholarpedia
+          </a>
+        </h3>
+        <p class="pub-meta">
+          El Profesional de la información، ۲۰۲۱ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (لطفا DOI این مقاله را پیش از انتشار نهایی بیفزایید)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله با استفاده از داده‌های استنادی، بررسی می‌کند که چهار دانشنامه 
+          <strong>Wikipedia، Britannica، Baidu Baike و Scholarpedia</strong> چگونه و در چه حوزه‌هایی 
+          در مقالات علمی استناد می‌شوند. تحلیل نشان می‌دهد که ویکی‌پدیا با وجود بحث‌های مربوط به کیفیت 
+          و اعتبار، در برخی حوزه‌ها به عنوان منبع اطلاعات زمینه‌ای و در مواردی به عنوان نقطه شروع 
+          پژوهش مورد استفاده قرار می‌گیرد، در حالی که دانشنامه‌های سنتی‌تر مانند بریتانیکا نقش متفاوتی دارند. 
+          تفاوت‌های قابل توجهی بر اساس زبان، حوزه موضوعی و نوع نشریه دیده می‌شود. این نتایج تصویر واقع‌بینانه‌تری 
+          از جایگاه دانشنامه‌ها در ارتباطات علمی ارائه می‌کند و برای سیاست‌گذاری در حوزه استفاده مسئولانه از 
+          منابع آنلاین اهمیت دارد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Wikipedia; Encyclopedias; Citations; Scholarly communication; Research evaluation
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          ویکی‌پدیا؛ دانشنامه‌ها؛ استناد؛ ارتباطات علمی؛ ارزیابی پژوهش
+        </p>
+      </article>
+
+      <!-- 15. Authorship & contributor roles -->
+      <article class="pub-item" id="pub-authorship-2021">
+        <h3>
+          <a href="https://www.tandfonline.com/" target="_blank" rel="noopener">
+            Is authorship sufficient for today’s collaborative research? A call for contributor roles
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Accountability in Research، ۲۰۲۱ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نیازمند بررسی و تکمیل توسط نویسنده (خط‌مشی‌ها برای نقش‌های نویسندگی)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله به این پرسش می‌پردازد که آیا نظام سنتی «نویسنده/هم‌نویسنده» 
+          برای بازتاب دادن همه نقش‌های واقعی در پژوهش‌های امروزی که اغلب بسیار 
+          <strong>همکارانه و میان‌رشته‌ای</strong> هستند، کافی است یا خیر. نویسندگان با مرور ادبیات، 
+          مثال‌های واقعی و چارچوب‌هایی مانند طبقه‌بندی CRediT نشان می‌دهند که بسیاری از مشارکت‌های 
+          کلیدی (مانند گردآوری داده، تحلیل، مدیریت پروژه، تدارک زیرساخت‌ها و نظارت اخلاقی) در ساختار 
+          فعلی نویسندگی به‌طور شفاف نمایان نمی‌شوند. مقاله پیشنهاد می‌کند که شفاف‌سازی و ثبت نقش‌های 
+          دقیق هر فرد می‌تواند به انصاف بیشتر، مسئولیت‌پذیری قوی‌تر و جلوگیری از پدیده‌هایی مانند 
+          نویسندگی افتخاری یا پنهان کمک کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Authorship; Contributor roles; Research ethics; Scholarly communication; Credit taxonomy
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          نویسندگی؛ نقش‌های مشارکت‌کنندگان؛ اخلاق پژوهش؛ ارتباطات علمی؛ نظام اعتباردهی
+        </p>
+      </article>
+
+      <!-- 16. Facebook topics – IPM -->
+      <article class="pub-item" id="pub-facebook-topics-2020">
+        <h3>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0306457319311124" target="_blank" rel="noopener">
+            Which health and biomedical topics generate the most Facebook interest and the strongest citation relationships?
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Information Processing &amp; Management، ۲۰۲۰ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1016/j.ipm.2020.102230" target="_blank" rel="noopener">
+            10.1016/j.ipm.2020.102230
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          در این مطالعه، مجموعه بزرگی از مقالات سلامت و پزشکی بررسی شده تا مشخص شود 
+          کدام <strong>موضوعات سلامت و زیست‌پزشکی</strong> بیشترین توجه را در فیس‌بوک جلب می‌کنند و 
+          این توجه چگونه با استنادهای علمی مرتبط است. با استفاده از داده‌های آلتمتریک و استنادی، 
+          مقاله نشان می‌دهد که موضوعاتی مانند سلامت عمومی، بیماری‌های عفونی و موضوعات بحث‌برانگیز 
+          از نظر ذکر در فیس‌بوک بسیار برجسته‌اند، اما همبستگی میان توجه عمومی و استنادهای دانشگاهی 
+          در همه حوزه‌ها یکسان نیست. برخی مقالات بسیار استناد می‌گیرند بدون آنکه توجه زیادی در شبکه‌های 
+          اجتماعی داشته باشند و برعکس. این تفاوت‌ها نشان می‌دهد که آلتمتریک و استنادها جنبه‌های مکملی 
+          از تأثیر پژوهش را اندازه‌گیری می‌کنند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Facebook; Health communication; Altmetrics; Bibliometrics; Medical research; Citation analysis
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          فیس‌بوک؛ ارتباطات سلامت؛ آلتمتریک؛ علم‌سنجی؛ پژوهش پزشکی؛ تحلیل استناد
+        </p>
+      </article>
+
+      <!-- 17. Wine research – AJGWR -->
+      <article class="pub-item" id="pub-wine-2020">
+        <h3>
+          <a href="https://onlinelibrary.wiley.com/" target="_blank" rel="noopener">
+            Wine research and its relationship with wine production: A scientometric analysis of global trends
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Australian Journal of Grape and Wine Research، ۲۰۲۰ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (پیشنهاد: از وب‌سایت مجله برای افزودن DOI دقیق استفاده شود)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله با رویکرد <strong>علم‌سنجی</strong> روندهای جهانی پژوهش در حوزه 
+          شراب را بررسی می‌کند و آنها را با الگوهای تولید شراب در کشورهای مختلف مقایسه می‌کند. 
+          نتایج نشان می‌دهد که برخی کشورها نه تنها از نظر تولید، بلکه از نظر خروجی پژوهشی نیز 
+          نقش محوری دارند، در حالی که در برخی مناطق، شکاف میان ظرفیت تولید و فعالیت پژوهشی دیده می‌شود. 
+          تحلیل موضوعی همچنین تحول از پژوهش‌های سنتی‌تر (مثلا تمرکز بر آفات و کیفیت محصول) به موضوعات 
+          جدیدتر مانند تغییرات اقلیمی، پایداری و فناوری‌های پیشرفته در تولید و بازاریابی شراب را آشکار می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Wine research; Scientometrics; Bibliometrics; Wine production; Global trends
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          پژوهش شراب؛ علم‌سنجی؛ کتاب‌سنجی؛ تولید شراب؛ روندهای جهانی
+        </p>
+      </article>
+
+      <!-- 18. Who shares on Facebook – Learned Publishing -->
+      <article class="pub-item" id="pub-who-shares-facebook-2020">
+        <h3>
+          <a href="https://onlinelibrary.wiley.com/" target="_blank" rel="noopener">
+            Who shares health and medical scholarly articles on Facebook?
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Learned Publishing، ۲۰۲۰ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (لطفا DOI دقیق را از نسخه مجله بررسی کنید)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          در این مطالعه، نویسندگان به این پرسش پاسخ می‌دهند که چه گروه‌هایی 
+          (پژوهشگران، دانشگاه‌ها، مجلات، نهادهای دولتی، شهروندان و غیره) بیشتر مقالات 
+          علمی حوزه سلامت و پزشکی را در فیس‌بوک به اشتراک می‌گذارند. بر اساس داده‌های 
+          آلتمتریک، مقاله نشان می‌دهد که اگرچه دانشگاهیان و نشریات نقش پررنگی در انتشار 
+          دارند، بخش قابل توجهی از اشتراک‌گذاری‌ها توسط سازمان‌های غیردولتی، حرفه‌ای‌ها 
+          و کاربران عادی صورت می‌گیرد که هر یک انگیزه‌ها و سبک‌های ارتباطی متفاوتی دارند. 
+          این تنوع بازیگران، شبکه‌ای پیچیده از گردش اطلاعات علمی در بستر عمومی ایجاد می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Facebook; Altmetrics; Health research; User types; Scholarly communication; Social media sharing
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          فیس‌بوک؛ آلتمتریک؛ پژوهش سلامت؛ انواع کاربران؛ ارتباطات علمی؛ اشتراک‌گذاری در شبکه‌های اجتماعی
+        </p>
+      </article>
+
+      <!-- 19. Readership Data & Research Impact – HQSTR chapter -->
+      <article class="pub-item" id="pub-readership-impact-2019">
+        <h3>
+          <a href="https://link.springer.com/" target="_blank" rel="noopener">
+            Readership Data and Research Impact (Book Chapter)
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Handbook of Quantitative Science and Technology Research، ۲۰۱۹ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (برای فصل کتاب، DOI دقیق باید از ناشر بازیابی شود)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این فصل کتاب مروری تحلیلی بر انواع <strong>داده‌های خوانش</strong> مانند 
+          مشاهده صفحه، دانلود، ذخیره‌سازی در مدیران مراجع و نشانک‌های آنلاین ارائه می‌کند و 
+          نقش آنها را در سنجش تأثیر پژوهش بررسی می‌کند. نویسندگان ضمن مرور شواهد موجود، 
+          نشان می‌دهند که این شاخص‌ها می‌توانند ابعاد تکمیلی‌ای از تأثیر را در کنار استنادات 
+          آشکار کنند، از جمله توجه زودهنگام، استفاده در آموزش و دسترسی مخاطبان غیرآکادمیک. 
+          در عین حال، محدودیت‌ها، سوگیری‌های احتمالی و تفاوت میان «خوانده شدن» واقعی و 
+          «کلیک» صرف نیز مورد بحث قرار می‌گیرد و راهنمایی‌هایی برای استفاده سنجیده از 
+          این داده‌ها در ارزیابی پژوهش ارائه می‌شود.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Readership data; Downloads; Usage statistics; Research impact; Altmetrics; Evaluation
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          داده‌های خوانش؛ دانلود؛ آمار استفاده؛ تأثیر پژوهش؛ آلتمتریک؛ ارزیابی
+        </p>
+      </article>
+
+      <!-- 20. Academic info on Twitter – PLOS ONE -->
+      <article class="pub-item" id="pub-twitter-survey-2018">
+        <h3>
+          <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0197265" target="_blank" rel="noopener">
+            Academic information on Twitter: A user survey
+          </a>
+        </h3>
+        <p class="pub-meta">
+          PLOS ONE، ۲۰۱۸ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1371/journal.pone.0197265" target="_blank" rel="noopener">
+            10.1371/journal.pone.0197265
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله نتایج یک پیمایش از پژوهشگران و دانشگاهیان را درباره نحوه استفاده آنان 
+          از <strong>توییتر برای اطلاعات علمی</strong> گزارش می‌کند. یافته‌ها نشان می‌دهد که 
+          بسیاری از شرکت‌کنندگان از توییتر برای اطلاع از آخرین مقالات، دنبال کردن کنفرانس‌ها، 
+          شبکه‌سازی علمی و افزایش دیده‌شدن پژوهش‌های خود استفاده می‌کنند. در عین حال، نگرانی‌هایی 
+          درباره اعتبار اطلاعات، فشار برای حضور دائمی، و مرز میان زندگی شخصی و حرفه‌ای مطرح می‌شود. 
+          مطالعه به تفاوت‌های رشته‌ای و سطح تجربه کاربران نیز اشاره می‌کند و پیامدهایی برای سیاست‌های 
+          ارتباطات علمی و آموزش سواد رسانه‌ای در دانشگاه‌ها مطرح می‌سازد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Twitter; Academic communication; Social media; Scholars; User survey; Scholarly information
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          توییتر؛ ارتباطات علمی؛ شبکه‌های اجتماعی؛ پژوهشگران؛ پیمایش کاربر؛ اطلاعات علمی
+        </p>
+      </article>
+
+      <!-- 21. Social bots at mass shooting – PRA2 -->
+      <article class="pub-item" id="pub-bots-mass-shooting-2018">
+        <h3>
+          <a href="https://asistdl.onlinelibrary.wiley.com/" target="_blank" rel="noopener">
+            “Life never matters in the DEMOCRATS MIND”: Examining strategies of retweeted social bots during a mass shooting event
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Proceedings of the Association for Information Science and Technology، ۲۰۱۸ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (پیشنهاد: بازیابی از نسخه کامل مقاله در PRA2)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله استراتژی‌های <strong>بات‌های اجتماعی</strong> را در توییتر در پی 
+          یک رویداد تیراندازی جمعی بررسی می‌کند. با تمرکز بر حساب‌هایی که به شدت بازنشر شده‌اند، 
+          تحلیل نشان می‌دهد که بات‌ها چگونه با استفاده از عبارات احساسی، قطبی‌سازی سیاسی، 
+          حمله به گروه‌های خاص و تقویت روایت‌های توطئه‌آمیز به تشدید تنش‌ها کمک می‌کنند. 
+          مقاله نشان می‌دهد که این بات‌ها نه تنها محتوای خاصی را تکرار می‌کنند، بلکه با 
+          ترکیب مجدد پیام‌ها و استفاده از هشتگ‌های هدفمند، دستور کار و جهت‌گیری بحث‌های آنلاین را 
+          تحت تأثیر قرار می‌دهند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Social bots; Twitter; Mass shooting; Political communication; Misinformation; Agenda setting
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          بات‌های اجتماعی؛ توییتر؛ تیراندازی جمعی؛ ارتباطات سیاسی؛ اطلاعات نادرست؛ تنظیم دستور کار
+        </p>
+      </article>
+
+      <!-- 22. CTSA collaboration – JCTS -->
+      <article class="pub-item" id="pub-ctsa-2017">
+        <h3>
+          <a href="https://www.cambridge.org/" target="_blank" rel="noopener">
+            A scientometric analysis of CTSA collaboration and impact
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Journal of Clinical and Translational Science، ۲۰۱۷ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (لطفا DOI را از نسخه مجله استخراج کنید)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مطالعه با بهره‌گیری از شاخص‌های <strong>علم‌سنجی</strong> به بررسی 
+          الگوهای همکاری و تأثیر پژوهشی برنامه Clinical and Translational Science Awards (CTSA) 
+          می‌پردازد. با تحلیل شبکه‌های هم‌نویسندگی، استنادات و سایر شاخص‌ها، مقاله نشان می‌دهد که 
+          این برنامه چگونه به شکل‌گیری همکاری‌های بین نهادی و میان‌رشته‌ای کمک کرده و چه حوزه‌هایی 
+          بیشترین بازده علمی را داشته‌اند. نتایج می‌تواند برای ارزیابی برنامه‌های تأمین مالی مشابه 
+          و طراحی سیاست‌های ارتقای همکاری در پژوهش‌های ترجمانی مفید باشد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Clinical and Translational Science Awards; Collaboration; Scientometrics; Co-authorship; Research impact
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          جوایز علم ترجمانی و بالینی؛ همکاری پژوهشی؛ علم‌سنجی؛ هم‌نویسندگی؛ تأثیر پژوهش
+        </p>
+      </article>
+
+      <!-- 23. Mendeley bookmarks – JASIST -->
+      <article class="pub-item" id="pub-mendeley-bookmarks-2015">
+        <h3>
+          <a href="https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.23477" target="_blank" rel="noopener">
+            Can Mendeley bookmarks reflect readership? A survey of user motivations
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Journal of the Association for Information Science and Technology، ۲۰۱۵ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1002/asi.23477" target="_blank" rel="noopener">
+            10.1002/asi.23477
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله با استفاده از یک پیمایش، انگیزه‌های کاربران برای ذخیره مقالات 
+          در مدیر مراجع <strong>Mendeley</strong> را بررسی می‌کند تا مشخص شود تا چه حد 
+          «نشانه‌گذاری» می‌تواند نماینده «خوانده شدن» واقعی باشد. نتایج نشان می‌دهد که اگرچه 
+          بسیاری از کاربران مقالات را برای خواندن فعلی یا آینده ذخیره می‌کنند، دلایل دیگری مانند 
+          سازمان‌دهی کتابخانه شخصی، استفاده احتمالی در تدریس یا نگارش مقاله، و حتی ذخیره صرف 
+          برای «محکم‌کاری» نیز وجود دارد. بنابراین، شمار خوانندگان در مندلی با مفهوم ساده «تعداد 
+          خوانندگان واقعی» یکسان نیست، اما همچنان می‌تواند شاخص مفیدی از توجه و استفاده بالقوه 
+          از مقاله باشد، مشروط بر اینکه با احتیاط تفسیر شود.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Mendeley; Bookmarks; Readership; User motivations; Altmetrics; Research evaluation
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          مندلی؛ نشانک‌ها؛ خوانش؛ انگیزه‌های کاربر؛ آلتمتریک؛ ارزیابی پژوهش
+        </p>
+      </article>
+
+      <!-- 24. Mendeley readership altmetrics – JASIST -->
+      <article class="pub-item" id="pub-mendeley-altmetrics-2014">
+        <h3>
+          <a href="https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.23071" target="_blank" rel="noopener">
+            Mendeley readership altmetrics for the social sciences and humanities: Research evaluation and knowledge flows
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Journal of the Association for Information Science and Technology، ۲۰۱۴ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1002/asi.23071" target="_blank" rel="noopener">
+            10.1002/asi.23071
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله از داده‌های خوانندگان مندلی برای تحلیل <strong>آلتمتریک</strong> 
+          در علوم اجتماعی و انسانی استفاده می‌کند و می‌پرسد که این داده‌ها تا چه حد می‌توانند 
+          در ارزیابی پژوهش و مطالعه جریان‌های دانش مفید باشند. با بررسی الگوهای خوانش بر اساس کشور، 
+          رشته و نوع کاربر، مطالعه نشان می‌دهد که برخی مقالات در خارج از جوامع آکادمیک سنتی نیز 
+          خوانندگان قابل‌توجهی دارند و جریان‌های دانشی فرارشته‌ای ایجاد می‌کنند. در عین حال، محدودیت‌های 
+          پوشش، سوگیری‌های زبانی و تفاوت فرهنگ استفاده از مندلی نیز مورد توجه قرار می‌گیرد.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Mendeley; Altmetrics; Social sciences; Humanities; Knowledge flows; Research evaluation
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          مندلی؛ آلتمتریک؛ علوم اجتماعی؛ علوم انسانی؛ جریان‌های دانش؛ ارزیابی پژوهش
+        </p>
+      </article>
+
+      <!-- 25. F1000 labels – Scientometrics -->
+      <article class="pub-item" id="pub-f1000-2013">
+        <h3>
+          <a href="https://link.springer.com/" target="_blank" rel="noopener">
+            Assessing non-standard article impact using F1000 labels
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Scientometrics، ۲۰۱۳ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>نامشخص (پیشنهاد: DOI این مقاله از Springer بازیابی شود)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله بررسی می‌کند که برچسب‌ها و ارزیابی‌های متخصصان در سامانه 
+          <strong>F1000</strong> چگونه می‌تواند ابعاد دیگری از «تأثیر مقاله» را که توسط استنادها 
+          به تنهایی دیده نمی‌شود، آشکار کند. با مقایسه برچسب‌هایی مانند «نوآورانه»، «بسیار مهم» 
+          یا «روش‌شناسی استثنایی» با شاخص‌های استنادی، مطالعه نشان می‌دهد که برخی کارها ارزش بالایی 
+          از دید متخصصان دارند، حتی اگر هنوز استناد زیادی دریافت نکرده باشند. این یافته‌ها بر اهمیت 
+          ترکیب ارزیابی‌های کیفی متخصصان با سنجه‌های کمی در ارزیابی پژوهش تأکید می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          F1000Prime; Expert evaluation; Article impact; Altmetrics; Research assessment
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          F1000Prime؛ ارزیابی متخصصان؛ تأثیر مقاله؛ آلتمتریک؛ ارزیابی پژوهش
+        </p>
+      </article>
+
+      <!-- 26. Mendeley readership conf – ISSI 2013 -->
+      <article class="pub-item" id="pub-mendeley-issi-2013">
+        <h3>
+          <a href="https://figshare.com/" target="_blank" rel="noopener">
+            Assessing the Mendeley readership of social science and humanities research (Conference Paper)
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Proceedings of ISSI 2013 Vienna: 14th International Society of Scientometrics and Informetrics Conference، ۲۰۱۳ |
+          <span>احسان محمدی و همکاران</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <span>فاقد DOI یا نامشخص در نسخه موجود (می‌توان در صورت تخصیص بعدی اضافه کرد)</span>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله کنفرانسی با تمرکز بر حوزه‌های علوم اجتماعی و انسانی، 
+          الگوهای خوانش مقالات در مندلی را تحلیل می‌کند. با بررسی توزیع خوانندگان بر حسب کشور، 
+          رشته و نوع کاربر، نویسندگان نشان می‌دهند که چگونه موضوعات خاص، توجه بیشتر و الگوهای 
+          فرارشته‌ای متمایزی را جذب می‌کنند. نتایج به عنوان پایه‌ای برای کارهای بعدی درباره 
+          آلتمتریک و نقش مندلی در این حوزه‌ها مورد استفاده قرار گرفته است.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Mendeley; Readership; Social sciences; Humanities; Altmetrics; Conference paper
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          مندلی؛ خوانش؛ علوم اجتماعی؛ علوم انسانی؛ آلتمتریک؛ مقاله کنفرانسی
+        </p>
+      </article>
+
+      <!-- 27. Knowledge mapping – Scientometrics 2012 -->
+      <article class="pub-item" id="pub-nanoscience-2012">
+        <h3>
+          <a href="https://link.springer.com/article/10.1007/s11192-012-0644-6" target="_blank" rel="noopener">
+            Knowledge mapping of the Iranian nanoscience and technology: A text mining approach
+          </a>
+        </h3>
+        <p class="pub-meta">
+          Scientometrics، ۲۰۱۲ |
+          <span>احسان محمدی</span>
+        </p>
+        <p class="doi">
+          <span class="label">DOI:</span>
+          <a href="https://doi.org/10.1007/s11192-012-0644-6" target="_blank" rel="noopener">
+            10.1007/s11192-012-0644-6
+          </a>
+        </p>
+        <p class="abstract-fa">
+          <span class="label">چکیده (به فارسی):</span>
+          این مقاله با استفاده از <strong>کاوش متن</strong> و روش‌های 
+          <strong>نقشه‌برداری دانش</strong>، ساختار و تحول پژوهش نانوعلم و نانوفناوری در ایران را 
+          تحلیل می‌کند. با استخراج واژگان عمده، خوشه‌بندی موضوعی و بررسی شبکه هم‌واژگی، مطالعه نشان 
+          می‌دهد که چه موضوعاتی (مانند نانوذرات، کاربردهای پزشکی، انرژی و مواد پیشرفته) در دوره‌های 
+          مختلف زمانی برجسته شده‌اند و کدام دانشگاه‌ها و پژوهشگران نقش محوری در این حوزه داشته‌اند. 
+          مقاله تصویری کلان از نقاط قوت، خلأها و فرصت‌های آینده نانوفناوری در ایران ارائه می‌کند.
+        </p>
+        <p class="keywords-en">
+          <span class="label">Keywords (EN):</span>
+          Nanoscience; Nanotechnology; Iran; Text mining; Knowledge mapping; Scientometrics
+        </p>
+        <p class="keywords-fa">
+          <span class="label">کلیدواژه‌ها (فا):</span>
+          نانوعلم؛ نانوفناوری؛ ایران؛ کاوش متن؛ نقشه دانش؛ علم‌سنجی
+        </p>
+      </article>
+
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <span>پیوندهای داخلی وب‌سایت احسان محمدی:</span>
+        <a href="https://www.ehsanmohammadi.com/welcome" target="_blank" rel="noopener">Welcome</a> |
+        <a href="https://www.ehsanmohammadi.com/about-ehsan" target="_blank" rel="noopener">About Ehsan</a> |
+        <a href="https://www.ehsanmohammadi.com/research" target="_blank" rel="noopener">Research</a> |
+        <a href="https://www.ehsanmohammadi.com/education" target="_blank" rel="noopener">Education</a> |
+        <a href="https://www.ehsanmohammadi.com/teaching" target="_blank" rel="noopener">Teaching</a> |
+        <a href="https://www.ehsanmohammadi.com/talks" target="_blank" rel="noopener">Talks</a> |
+        <a href="https://www.ehsanmohammadi.com/persian" target="_blank" rel="noopener">پژوهش‌ها به فارسی</a>
+      </div>
+      <div class="footer-links">
+        <span>نمایه‌های پژوهشی احسان محمدی در سایت‌های دیگر:</span>
+        <a href="https://scholar.google.com/citations?user=ddrRUEMAAAAJ" target="_blank" rel="noopener">Google Scholar</a> |
+        <a href="https://orcid.org/0000-0003-3481-6991" target="_blank" rel="noopener">ORCID</a> |
+        <a href="https://www.researchgate.net/profile/Ehsan-Mohammadi-4" target="_blank" rel="noopener">ResearchGate</a> |
+        <a href="https://sc.edu/study/colleges_schools/cic/faculty-staff/mohammadi_ehsan.php" target="_blank" rel="noopener">USC Profile</a>
+      </div>
+      <p class="footer-note">
+        * این صفحه برای فراهم کردن چکیده‌های فارسی، کلیدواژه‌های دو زبانه و لینک‌های مستقیم به 
+        مقالات طراحی شده است تا هم برای مخاطبان فارسی‌زبان و هم برای ارزیابی و معرفی بین‌المللی 
+        کارهای پژوهشی <strong>احسان محمدی</strong> قابل استفاده باشد.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.wikidata.org/entity/Q57911399",
+  "name": "Ehsan Mohammadi",
+  "alternateName": "احسان محمدی",
+  "description": "Associate Professor researching health informatics, scholarly communication, misinformation, big data, and applied AI.",
+  "url": "https://www.ehsanmohammadi.com/",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ehsan%20Mohammadi%20University%20of%20South%20Carolina.jpg",
+  "jobTitle": "Associate Professor",
+  "affiliation": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of South Carolina",
+      "url": "https://sc.edu/"
+    }
+  ],
+  "knowsLanguage": [
+    "fa",
+    "en"
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q57911399",
+    "https://sc.edu/study/colleges_schools/cic/faculty-staff/mohammadi_ehsan.php",
+    "https://www.ehsanmohammadi.com/",
+    "https://www.hidalab.org/",
+    "https://www.ehsanmohammadi.com/persian",
+    "https://orcid.org/0000-0003-3481-6991",
+    "https://dblp.org/pid/117/3970",
+    "https://loop.frontiersin.org/people/298289/overview",
+    "https://sc.academia.edu/EhsanMohammadi",
+    "https://www.researchgate.net/profile/Ehsan-Mohammadi-8"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0000-0003-3481-6991"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DBLP",
+      "value": "117/3970"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "GoogleScholar",
+      "value": "ddrRUEMAAAAJ"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Loop",
+      "value": "298289"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ScopusAuthorID",
+      "value": "54965851600"
+    }
+  ]
+}
+</script>
